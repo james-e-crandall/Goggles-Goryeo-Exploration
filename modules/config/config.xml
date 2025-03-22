@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Leaders>
+	</Leaders>
+	<LeaderItems>
+
+	</LeaderItems>
+	<LeaderTags>
+
+	</LeaderTags>
+	<LeaderQuotes>
+
+	</LeaderQuotes>
+	<LeaderCivilizationBias>
+
+	</LeaderCivilizationBias>
+	<Civilizations>
+		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" CivilizationName="LOC_CIVILIZATION_GORYEO_NAME" CivilizationFullName="LOC_CIVILIZATION_GORYEO_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_GORYEO_DESCRIPTION" CivilizationIcon="civ_sym_goryeo.png"/>
+	</Civilizations>
+	<CivilizationItems>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="TRAIT_GORYEO_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_GORYEO_ABILITY_NAME" Description="LOC_TRAIT_GORYEO_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="UNIT_UNIQUE_INFANTRY" Kind="KIND_UNIT" Name="LOC_UNIT_UNIQUE_INFANTRY_NAME" Description="LOC_UNIT_UNIQUE_INFANTRY_BASE_DESCRIPTION" Icon="ICON_UNIT_UNIQUE_INFANTRY"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="UNIT_UNIQUE_GREAT_PERSON" Kind="KIND_UNIT" Name="LOC_UNIT_GREAT_PERSON_NAME" Description="LOC_UNIT_GREAT_PERSON_DESCRIPTION" Icon="ICON_UNIT_GREAT_PERSON"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="BUILDING_UNIQUE_BUILDING" Kind="KIND_BUILDING" Name="LOC_BUILDING_UNIQUE_BUILDING_NAME" Description="LOC_BUILDING_UNIQUE_BUILDING_DESCRIPTION" Icon="BUILDING_UNIQUE_BUILDING"/>
+		
+	</CivilizationItems>
+	<CivilizationTags>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" TagType="TAG_TRAIT_ECONOMIC"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" TagType="TAG_TRAIT_POLITICAL"/>
+	</CivilizationTags>
+	<LeaderCivilizationBias>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" LeaderDomain="StandardLeaders" LeaderType="LEADER_TRUNG_TRAC" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_TRUNG_TRAC_GORYEO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" LeaderDomain="StandardLeaders" LeaderType="LEADER_HIMIKO" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_HIMIKO_GORYEO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_CONFUCIUS_GORYEO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+	
+	</LeaderCivilizationBias>
+	<CivilizationUnlocks>
+		
+	</CivilizationUnlocks>
+	<LeaderUnlocks>
+
+	</LeaderUnlocks>
+	<Mementos>
+
+	</Mementos>
+</Database>

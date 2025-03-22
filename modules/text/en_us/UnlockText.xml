@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_GORYEO_DESCRIPTION">
+			<Text>Play as the [B]Goryeo[/B].</Text>
+		</Row>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_GORYEO_SILLA_TOOLTIP">
+			<Text>The [B]Goryeo [/B] is from the same continent as [B]Silla [/b].</Text>
+		</Row>
+
+		<Row Tag="LOC_UNLOCK_PLAY_AS_HIMIKO_GORYEO_TOOLTIP">
+			<Text>[B]Himiko[/B] was influenced by [B]Goryeo[/B] culture.</Text>
+		</Row>
+		
+		<Row Tag="LOC_UNLOCK_PLAY_AS_HIMIKO_GORYEO_TOOLTIP">
+			<Text>[B]Himiko[/B] was from the same region as the [B]Goryeo[/B].</Text>
+		</Row>
+
+		<Row Tag="LOC_UNLOCK_PLAY_AS_TRUNG_TRAC_GORYEO_TOOLTIP">
+			<Text>[B]Trung Trac[/B] was from the same region as the [B]Goryeo[/B].</Text>
+		</Row>
+
+		<Row Tag="LOC_UNLOCK_PLAY_AS_CONFUCIUS_GORYEO_TOOLTIP">
+			<Text>[B]Confucius[/B] teaching influenced the [B]Goryeo[/B] culture.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>

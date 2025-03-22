@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<Database>
+	<EnglishText>
+			<!-- Civ Unique Improvements -->
+		<Row Tag="LOC_BUILDING_SEOKTAP_NAME">
+			<Text>Seoktap</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SEOKTAP_DESCRIPTION">
+			<Text>Unique Happiness Building. Grants more Happiness when both Population of the Settlement belive same Religion. Can be purchased in Town.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_SEOKTAP_TOOLTIP">
+			<Text>Seoktap Unique Happiness Building. Ageless.</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_JANGGYEONGJEON_NAME">
+			<Text>Janggyeongjeon</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JANGGYEONGJEON_DESCRIPTION">
+			<Text>Unique Culture Building. Grants a Great Work Slot. Grants Religious Pressure for every Great Work it has. Can be purchased in Town.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_JANGGYEONGJEON_TOOLTIP">
+			<Text>Janggyeongjeon Unique Culture Building. Ageless.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>

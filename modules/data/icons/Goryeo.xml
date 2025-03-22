@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Database>
+    <IconDefinitions>
+        <Row>
+            <ID>CIVILIZATION_GORYEO</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>civ_line_goryeo</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo.png</Path>
+        </Row>
+        <Row>
+            <ID>cult_goryeo</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo.png</Path>
+        </Row>
+    </IconDefinitions>
+</Database>

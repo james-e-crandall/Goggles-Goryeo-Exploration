@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--GORYEO-->
+		<Row Tag="LOC_CITIZEN_GORYEO_MALE_1">
+			<Text>Sin Sung-gyŏm</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_MALE_2">
+			<Text>Sŏ Hŭi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_MALE_3">
+			<Text>Kang Cho </Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_MALE_4">
+			<Text>Yi Hyŏn-un</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_MALE_5">
+			<Text>Kang Kam-ch'an</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_MALE_6">
+			<Text>Chŏng Chung-bu</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_MALE_7">
+			<Text>Yi Ŭi-bang</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_MALE_8">
+			<Text>Kyŏng Tae-sŭng</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_MALE_9">
+			<Text>Yi Ŭi-min</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_MALE_10">
+			<Text>Pae Chung-son</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_FEMALE_1">
+			<Text>Seong-hee</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_FEMALE_2">
+			<Text>Hae-jin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_FEMALE_3">
+			<Text>Ji-won</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_FEMALE_4">
+			<Text>Ye-jin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_FEMALE_5">
+			<Text>Hee-jin</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_FEMALE_6">
+			<Text>Yoon-hee</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_FEMALE_7">
+			<Text>Young-hee</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_FEMALE_8">
+			<Text>Eun-mi</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_FEMALE_9">
+			<Text>Na-eun</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_GORYEO_FEMALE_10">
+			<Text>Ji-hye</Text>
+		</Row>
+	</EnglishText>
+</Database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Unit Abilities -->
+
+		<!-- Greece Unique Units -->
+		<Row Tag="LOC_UNIT_BYEOLMUBAN_NAME">
+			<Text>Byeolmuban</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BYEOLMUBAN_BASE_DESCRIPTION">
+			<Text>Byeolmuban: Unique Cavalry Unit. Increased Combat Strength against Cavalry Units. Automatically Fortifies after Attack.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BYEOLMUBAN_DESCRIPTION">
+			<Text>Byeolmuban: Unique Cavalry Unit. Increased Combat Strength against Cavalry Units. Automatically Fortifies after Attack.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BYEOLMUBAN_2_DESCRIPTION">
+			<Text>Tier 2 Byeolmuban: Unique Cavalry Unit. Increased Combat Strength against Cavalry Units. Automatically Fortifies after Attack.</Text>	
+		</Row>
+		<Row Tag="LOC_UNIT_BYEOLMUBAN_3_DESCRIPTION">
+			<Text>Tier 3 Byeolmuban: Unique Cavalry Unit. Increased Combat Strength against Cavalry Units. Automatically Fortifies after Attack.</Text>	
+		</Row>
+		<Row Tag="BYEOLMUBAN_FARM_FISH_TOWN_INFANTRY_PURCHASE_EFFICIENCY_DESCRIPTION">
+			<Text>+100% [icon:YIELD_GOLD]Gold to purchasing BYEOLMUBAN in towns specialized as a Fishing/Farming town.</Text>
+		</Row>
+	</EnglishText>
+</Database>

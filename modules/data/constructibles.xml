@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>  
+	<Types>
+		<!-- Civ Unique Buildings -->
+		<Row Type="BUILDING_SEOKTAP" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_JANGGYEONGJEON" Kind="KIND_CONSTRUCTIBLE"/>
+	</Types>
+	<TypeQuotes>
+	</TypeQuotes>
+	<AgeGrowthBalances>
+	</AgeGrowthBalances>
+	<Constructibles>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_SEOKTAP" Name="LOC_BUILDING_SEOKTAP_NAME" Description="LOC_BUILDING_SEOKTAP_DESCRIPTION" Tooltip="LOC_BUILDING_SEOKTAP_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_EXPLORATION"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" Name="LOC_BUILDING_JANGGYEONGJEON_NAME" Description="LOC_BUILDING_JANGGYEONGJEON_DESCRIPTION" Tooltip="LOC_BUILDING_JANGGYEONGJEON_TOOLTIP" ConstructibleClass="BUILDING" Cost="280" Population="1" Age="AGE_EXPLORATION"/>
+	</Constructibles>
+	<Buildings>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_SEOKTAP" Movable="false" TraitType="TRAIT_GORYEO"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" Movable="false" TraitType="TRAIT_GORYEO"/>
+	</Buildings>
+	<Improvements>
+	</Improvements>
+	<Wonders>
+	</Wonders>
+	<TypeTags>
+		<!-- Civ Unique Buildings -->
+		<Row Type="BUILDING_SEOKTAP" Tag="HAPPINESS"/>
+		<Row Type="BUILDING_SEOKTAP" Tag="UNIQUE"/>
+		<Row Type="BUILDING_SEOKTAP" Tag="AGELESS"/>
+		<Row Type="BUILDING_JANGGYEONGJEON" Tag="SCIENCE"/>
+		<Row Type="BUILDING_JANGGYEONGJEON" Tag="UNIQUE"/>
+		<Row Type="BUILDING_JANGGYEONGJEON" Tag="AGELESS"/>
+		<!-- Civ Unique Improvements -->
+	</TypeTags>
+	<Constructible_ValidDistricts>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_SEOKTAP" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP" DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" DistrictType="DISTRICT_URBAN"/>
+
+	</Constructible_ValidDistricts>
+	<District_FreeConstructibles>
+
+	</District_FreeConstructibles>
+	<Constructible_ValidBiomes>
+		<!-- Civ Unique Improvements -->
+
+	</Constructible_ValidBiomes>
+	<Constructible_InvalidAdjacentBiomes>
+		<!-- Wonders -->
+		<!-- Civ Unique Improvements -->
+
+	</Constructible_InvalidAdjacentBiomes>
+	<Constructible_ValidTerrains>
+
+		<!-- Civ Unique Improvements -->
+
+		<!-- Wonders -->
+	</Constructible_ValidTerrains>
+	<AgeConstructibleDefaultYields>
+
+	</AgeConstructibleDefaultYields>
+	<AgeConstructibleDefaultMaintenances>
+
+	</AgeConstructibleDefaultMaintenances>
+	<Constructible_YieldChanges>
+
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_SEOKTAP" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		
+		<!-- Civ Unique Improvements -->
+
+	</Constructible_YieldChanges>
+	<Constructible_Maintenances>
+
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_SEOKTAP" YieldType="YIELD_GOLD" Amount="3"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldType="YIELD_GOLD" Amount="3"/>
+		
+	</Constructible_Maintenances>
+	<Constructible_Adjacencies>
+		<!-- Civ Uniques -->
+		<Row ConstructibleType="BUILDING_SEOKTAP" YieldChangeId="MountainHappiness"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP" YieldChangeId="NaturalWonderHappiness"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP" YieldChangeId="WonderHappiness"/>
+		
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="ResourceScience"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="WonderScience"/>
+
+	</Constructible_Adjacencies>
+	<Adjacency_YieldChanges>
+
+	</Adjacency_YieldChanges>
+
+	<Constructible_WarehouseYields>
+
+	</Constructible_WarehouseYields>
+
+	<Warehouse_YieldChanges>
+
+ 	</Warehouse_YieldChanges>
+
+	<Constructible_WildcardAdjacencies>
+
+	</Constructible_WildcardAdjacencies>
+	<Constructible_Logistics>
+
+	</Constructible_Logistics>
+	<Constructible_Plunders>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_SEOKTAP" PlunderType="PLUNDER_CULTURE" Amount="80"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" PlunderType="PLUNDER_SCIENCE" Amount="80"/>
+		
+	</Constructible_Plunders>
+	<ConstructibleModifiers>
+		<!-- Civ Uniques -->
+
+
+	</ConstructibleModifiers>
+	<UniqueQuarters>
+		<Row UniqueQuarterType="QUARTER_DAESACHAL" BuildingType1="BUILDING_SEOKTAP" BuildingType2="BUILDING_JANGGYEONGJEON" Name="LOC_QUARTER_DAESACHAL_NAME" Description="LOC_QUARTER_DAESACHAL_DESCRIPTION" TraitType="TRAIT_GORYEO"/>
+	</UniqueQuarters>
+	<GameModifiers>
+		<!-- Unique Quarter modifiers are game-wide -->
+		<Row ModifierId=""/>
+	</GameModifiers>
+	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
+	<UniqueQuarterModifiers>
+		<Row UniqueQuarterType="QUARTER_DAESACHAL" ModifierId=""/>
+	</UniqueQuarterModifiers>
+	<Constructible_Advisories>
+		<!-- Antique Revived Buildings -->
+		<Row ConstructibleType="BUILDING_SEOKTAP" AdvisoryClassType="ADVISORY_CLASS_HAPPINESS"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+	</Constructible_Advisories>
+
+</Database>

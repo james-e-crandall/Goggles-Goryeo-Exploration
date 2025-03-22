@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_GORYEO_NAME">
+			<Text>Goryeo</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_GORYEO_DESCRIPTION">
+			<Text>Goryeo Antiquity Age</Text>
+		</Row>
+		<Row Tag="LOC_AUTHORS_JEC">
+			<Text>The_Goggles_Do_Nothing</Text>
+		</Row>
+	</EnglishText>
+</Database>

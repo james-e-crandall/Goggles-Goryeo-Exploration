@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Civ Unique Trees -->
+		<Row Type="TREE_CIVICS_EX_GORYEO" Kind="KIND_TREE"/>
+		<!-- Civ Unique Tree Nodes -->
+		<!-- Germanis -->
+
+		<Row Type="NODE_CIVIC_EX_GORYEO_HOJOK" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" Kind="KIND_TREE_NODE"/>
+		<Row Type="NODE_CIVIC_EX_GORYEO_BYEOKRANDO" Kind="KIND_TREE_NODE"/>
+		<!-- Unique Abilities -->
+	</Types>
+	<TypeQuotes>
+		<Row Type="NODE_CIVIC_EX_GORYEO_HOJOK" Quote="LOC_CIVIC_GORYEO_HOJOK_QUOTE" QuoteAuthor="LOC_CIVIC_GORYEO_HOJOK_QUOTE_AUTHOR" QuoteAudio="VO_Quote_Hojok" />
+		<Row Type="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" Quote="LOC_NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR_QUOTE" QuoteAuthor="LOC_NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR_QUOTE_AUTHOR" QuoteAudio="VO_Quote_PatrioticWar" />
+		<Row Type="NODE_CIVIC_EX_GORYEO_BYEOKRANDO" Quote="LOC_CIVIC_GORYEO_BYEOKRANDO_QUOTE" QuoteAuthor="LOC_CIVIC_GORYEO_BYEOKRANDO_QUOTE_AUTHOR" QuoteAudio="VO_Quote_Byeokrando"/>
+
+	</TypeQuotes>
+	<ProgressionTrees>
+		<!-- Civ Unique Trees -->
+		<!-- GORYEO -->
+		<Row ProgressionTreeType="TREE_CIVICS_EX_GORYEO" AgeType="AGE_ANTIQUITY" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_EX_GORYEO_NAME"/>
+	</ProgressionTrees>
+	<ProgressionTreeNodes>
+		<!-- GORYEO -->
+
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_HOJOK" ProgressionTree="TREE_CIVICS_EX_GORYEO" Cost="150" Name="LOC_CIVIC_GORYEO_HOJOK_NAME" IconString="cult_goryeo" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" ProgressionTree="TREE_CIVICS_EX_GORYEO" Cost="250" Name="LOC_CIVIC_GORYEO_PATRIOTIC_WAR_NAME" IconString="cult_goryeo" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_BYEOKRANDO" ProgressionTree="TREE_CIVICS_EX_GORYEO" Cost="250" Name="LOC_CIVIC_GORYEO_BYEOKRANDO_NAME" IconString="cult_goryeo" />
+
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+
+	
+	</ProgressionTreeNodeUnlocks>
+	<ProgressionTreePrereqs>
+		<!-- GORYEO -->
+		<Row Node="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" PrereqNode="NODE_CIVIC_EX_GORYEO_HOJOK"/>
+		<Row Node="NODE_CIVIC_EX_GORYEO_BYEOKRANDO" PrereqNode="NODE_CIVIC_EX_GORYEO_HOJOK"/>
+		<Row Node="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" PrereqNode="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR"/>
+
+	</ProgressionTreePrereqs>
+	<ProgressionTree_Advisories>
+		<!-- GORYEO -->
+
+	</ProgressionTree_Advisories>
+	<!-- Unit Abilities -->
+	<UnitClass_Abilities>
+
+	</UnitClass_Abilities>
+	<UnitAbilities>
+
+	
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+
+	</UnitAbilityModifiers>
+
+</Database>

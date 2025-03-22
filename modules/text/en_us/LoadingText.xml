@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_GORYEO">
+			<Text>Goryeo (Korean: 고려; Hanja: 高麗; MR: Koryŏ, [ko.ɾjʌ]; Middle Korean: 고ᇢ롕〮, romanized: kwòwlyéy) was a Korean state founded in 918, during a time of national division called the Later Three Kingdoms period, that unified and ruled the Korean Peninsula until the establishment of Joseon in 1392.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INTRO_GORYEO">
+			<Text>In the end, only three things matter: how much you loved, how gently you lived, and how gracefully you let go of things not meant for you.</Text>
+		</Row>
+	</EnglishText>
+</Database>

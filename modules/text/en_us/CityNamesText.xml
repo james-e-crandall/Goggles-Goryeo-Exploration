@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--GORYEO-->
+		<Row Tag="LOC_CITY_NAME_GORYEO1">
+			<Text>Gaegyeong</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO2">
+			<Text>Kaesong</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO3">
+			<Text>Songdo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO4">
+			<Text>Ganghwa </Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO5">
+			<Text>Wangseong</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO6">
+			<Text>Kaesong</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO7">
+			<Text>Balhae</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO8">
+			<Text>Georan</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO9">
+			<Text>Yeojin</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO10">
+			<Text>Sangseo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO11">
+			<Text>Kaesongbu</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO12">
+			<Text>Bukgye</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO13">
+			<Text>Seonaedo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO14">
+			<Text>Ryeongju</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO15">
+			<Text>Gyojudo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO16">
+			<Text>Namgyeong</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO17">
+			<Text>Gwangjumok</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO18">
+			<Text>Chungjumok</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO19">
+			<Text>Tamna</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO20">
+			<Text>Donggyeong</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO21">
+			<Text>Jeonjumok</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_GORYEO22">
+			<Text>Rajumok</Text>
+		</Row>
+	</EnglishText>
+</Database>

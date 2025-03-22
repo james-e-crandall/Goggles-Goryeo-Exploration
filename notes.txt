@@ -1,0 +1,74 @@
+GORYEO - EXPLORATION AGE CIVILIZATION​
+
+Goryeo
+
+https://vocal.media/journal/quotes-from-the-tripitaka
+
+Unique Ability
+
+Negotiation of Seohui: Gains Influence for every Tradition slotted into the Government. Gains a free Byeolmuban once each Diplomatic Endeavor is completed.
+
+
+Attributes:
+Economic
+Diplomatic
+
+
+Civic Trees
+
+Hojok
+Tier 1: Increased Gold from Towns. Decreased Happiness from Towns. Unlocks Manwoldae Palace Wonder.
+Tier 2: Unlocks Seoktap Unique Building. Increased Settlement Limit.
+
+Patriotic War
+Tier 1: Unlock Janggyeongjeon Unique Building and 'Cheollijangseong' Tradition.
+Tradition - Cheollijangseong: Gain Influence from Walled Districts. Gain a free Support from Combats on your territory.
+Tier 2: Unlocks the ability to found a Religion. Unlocks a free additional Belief 'Tripitaka Koreana' to your Religion.
+Belief - Tripitaka Koreana: Every Janggyeongjeon gains one more Great Work Slot. Cities with Janggyeongjeon can build a project to gain Relics called 'Daejanggyeongpan'.
+
+Byeokrando
+Tier 1: Increased Gold on Improvements on Costal Marine and Navigable River. Unlocks 'Goryeo Cheongja' Tradition.
+Tradition - Goryeo Cheongja: International Trade Routes gain Gold for every Warehouse in the Origin Settlement.
+Tier 2: International Trade Routes from Goryeo gain additional Gold for its length.
+
+
+Unique Infrastructure
+
+Daesachal: Unique Quarter. Grants Gold for Happiness of the Settlement.
+
+Seoktap: Unique Happiness Building. Grants more Happiness when both Population of the Settlement belive same Religion. Can be purchased in Town.
+
+Janggyeongjeon: Unique Culture Building. Grants a Great Work Slot. Grants Religious Pressure for every Great Work it has. Can be purchased in Town.
+
+
+Unique Civilian Unit
+
+Eungsa: Unique Scout Unit. Increased Sight Range. Can be activated at the neutral or friendly Civilization's territory, then removes the Unit and gains Influence.
+
+Eungsa: Unique Scout Unit. Has increased sight in distant lands
+
+Unique Military Unit
+
+Byeolmuban: Unique Cavalry Unit. Increased Combat Strength against Cavalry Units. Automatically Fortifies after Attack.
+
+BYEOLMUBAN
+
+UNIT_UNIQUE_INFANTRY
+
+UNIT_UNIQUE_BYEOLMUBAN
+
+Associated Wonder
+
+Manwoldae: Gains an unique Diplomatic Endeavor called 'Ginseng Agreement' that grants Food to both Leaders' Capital. Gain a Military Attribute Point. Must be placed on Rough Terrain.
+
+
+Starting Biases:
+Navigable River
+
+
+Civ Unlocks:
+Unlocked by Silla in Antiquity Age.
+Unlocked by Taejo Wang Geon.
+Unlocked by 2 conqured Settlements from each other players.
+Unlocked by 5 completed Diplomatic Endeavors.
+Unlocks Joseon in Modern Age.

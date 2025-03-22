@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<AiComponents>
+	</AiComponents>
+	<AiDefinitions>
+	</AiDefinitions>
+	<OpTeamRequirements>
+	</OpTeamRequirements>
+	<PseudoYields>
+	</PseudoYields>
+	<AiListTypes>
+		<!-- Goryeo -->
+		<Row ListType="Goryeo Unit Biases"/>
+		<Row ListType="Goryeo Government Bias"/>
+		<Row ListType="Goryeo Constructibles Biases" />
+		<Row ListType="Goryeo Budget Biases" />
+		<Row ListType="Goryeo PseudoYield Biases" />
+	</AiListTypes>
+	<AiLists>
+		<!-- Goryeo -->
+		<Row ListType="Goryeo Unit Biases" LeaderType="TRAIT_Goryeo" System="UnitBiases"/>
+		<Row ListType="Goryeo Government Bias" LeaderType="TRAIT_Goryeo" System="GovernmentBiases"/>
+		<Row ListType="Goryeo Constructibles Biases" LeaderType="TRAIT_Goryeo" System="ConstructibleBiases" />	
+		<Row ListType="Goryeo Budget Biases" LeaderType="TRAIT_Goryeo" System="AiBudgetBiases"/>	
+		<Row ListType="Goryeo PseudoYield Biases" LeaderType="TRAIT_Goryeo" System="PseudoYieldBiases"/>	
+	</AiLists>
+	<AiFavoredItems>
+		<!-- Goryeo -->
+    <Row ListType="Chola Government Bias" Item="GOVERNMENT_PLUTOCRACY" Value="50"/>
+		<Row ListType="Goryeo Constructibles Biases" Item="BUILDING_FISHING_QUAY" Value="200" />
+		<Row ListType="Goryeo Unit Biases" Item="UNIT_UNIQUE_INFANTRY" Value="50"/>
+		<Row ListType="Goryeo Unit Biases" Item="UNIT_UNIQUE_INFANTRY_2" Value="50"/>
+		<Row ListType="Goryeo Unit Biases" Item="UNIT_UNIQUE_INFANTRY_3" Value="50"/>
+		<Row ListType="Goryeo Unit Biases" Item="UNIT_UNIQUE_GREAT_PERSON" Value="200"/>
+	</AiFavoredItems>
+	<!-- City Strategies -->
+	<Strategies>
+	</Strategies>
+	<StrategyConditions>
+	</StrategyConditions>
+	<Strategy_Priorities>
+	</Strategy_Priorities>
+	<AiListTypes>
+	</AiListTypes>
+	<AiLists>
+	</AiLists>
+	<AiFavoredItems>
+	</AiFavoredItems>
+</Database>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<Row Type="TADITION_EX_GORYEO_CHEOLLIJANGSEONG" Kind="KIND_TRADITION"/>
+		<Row Type="TADITION_EX_GORYEO_TRIPITAKA_KOREANA_" Kind="KIND_TRADITION"/>
+		<Row Type="TADITION_EX_GORYEO_CHEONGJA" Kind="KIND_TRADITION"/>
+
+	</Types>
+	<UnitAbilities>
+
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+
+	</UnitAbilityModifiers>
+	<Traditions>
+		<Row TraditionType="TADITION_EX_GORYEO_CHEOLLIJANGSEONG" Name="LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_NAME" Description="LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_DESCRIPTION" TraitType="TRAIT_GORYEO" AgeType="AGE_EXPLORATION"/>
+		<Row TraditionType="TADITION_EX_GORYEO_TRIPITAKA_KOREANA_" Name="LOC_TADITION_EX_GORYEO_TRIPITAKA_KOREANA__NAME" Description="LOC_TADITION_EX_GORYEO_TRIPITAKA_KOREANA__DESCRIPTION" TraitType="TRAIT_GORYEO" AgeType="AGE_EXPLORATION"/>
+		<Row TraditionType="TADITION_EX_GORYEO_CHEONGJA" Name="LOC_TADITION_EX_GORYEO_CHEONGJA_NAME" Description="LOC_TADITION_EX_GORYEO_CHEONGJA_DESCRIPTION" TraitType="TRAIT_GORYEO" AgeType="AGE_EXPLORATION"/>
+
+	</Traditions>
+	<TraditionModifiers>
+
+	</TraditionModifiers>
+
+	<UnitClass_Abilities>
+
+	</UnitClass_Abilities>
+	<UnitAbilities>
+
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+
+	</UnitAbilityModifiers>
+</Database>
