@@ -4,10 +4,15 @@
 		<Row Type="TRAIT_GORYEO_ABILITY" Kind="KIND_TRAIT"/>
 	</Types>
 	<Civilizations>
-		<Row CivilizationType="CIVILIZATION_GORYEO" Name="LOC_CIVILIZATION_GORYEO_NAME" FullName="LOC_CIVILIZATION_GORYEO_FULLNAME" Description="LOC_CIVILIZATION_GORYEO_DESCRIPTION" Adjective="LOC_CIVILIZATION_GORYEO_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_GORYEO" CapitalName="LOC_CITY_NAME_GORYEO1" RandomCityNameDepth="10" />	
+		<Row CivilizationType="CIVILIZATION_GORYEO" Name="LOC_CIVILIZATION_GORYEO_NAME" FullName="LOC_CIVILIZATION_GORYEO_FULLNAME" Description="LOC_CIVILIZATION_GORYEO_DESCRIPTION" Adjective="LOC_CIVILIZATION_GORYEO_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_EX_GORYEO" CapitalName="LOC_CITY_NAME_GORYEO1" RandomCityNameDepth="10" />	
 	</Civilizations>
 	<CivilizationFavoredWonders>
-		<Row CivilizationType="CIVILIZATION_GORYEO" FavoredWonderType="WONDER_MANWOLDAE" FavoredWonderName="LOC_WONDER_MANWOLDAE_NAME"/>
+		<!-- <Row CivilizationType="CIVILIZATION_GORYEO" FavoredWonderType="WONDER_MANWOLDAE" FavoredWonderName="LOC_WONDER_MANWOLDAE_NAME"/>
+ -->
+
+		<Row CivilizationType="CIVILIZATION_GORYEO" FavoredWonderType="WONDER_BOROBUDUR" FavoredWonderName="LOC_WONDER_MANWOLDAE_NAME"/>
+
+		
 	</CivilizationFavoredWonders>
 	<Traits>
 		<Row TraitType="TRAIT_GORYEO_ABILITY" Name="LOC_TRAIT_GORYEO_ABILITY_NAME" Description="LOC_TRAIT_GORYEO_ABILITY_DESCRIPTION" InternalOnly="true"/>

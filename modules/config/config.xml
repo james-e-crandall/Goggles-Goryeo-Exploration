@@ -33,6 +33,9 @@
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" LeaderDomain="StandardLeaders" LeaderType="LEADER_HIMIKO" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_HIMIKO_GORYEO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_CONFUCIUS_GORYEO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
 	
+
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" LeaderDomain="StandardLeaders" LeaderType="LEADER_HIMIKO_ALT" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_HIMIKO_ALT_GORYEO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		
 	</LeaderCivilizationBias>
 	<CivilizationUnlocks>
 		

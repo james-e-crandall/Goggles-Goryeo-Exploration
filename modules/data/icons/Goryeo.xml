@@ -6,13 +6,9 @@
             <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo</Path>
             <Context>DEFAULT</Context>
         </Row>
-        <Row>
-            <ID>civ_line_goryeo</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo.png</Path>
-        </Row>
-        <Row>
+          <Row>
             <ID>cult_goryeo</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo.png</Path>
+            <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo</Path>
         </Row>
     </IconDefinitions>
 </Database>

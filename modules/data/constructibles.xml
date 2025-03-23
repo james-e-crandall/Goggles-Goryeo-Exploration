@@ -118,6 +118,9 @@
 	<ConstructibleModifiers>
 		<!-- Civ Uniques -->
 
+		<!-- <Row ConstructibleType="BUILDING_SEOKTAP" ModifierId="BUILDING_SEOKTAP_MOD_CITY_FOLLOWS_RELIGION_GOLD"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" ModifierId="BUILDING_SEOKTAP_MOD_CITY_FOLLOWS_RELIGION_GOLD"/>
+	 -->
 
 	</ConstructibleModifiers>
 	<UniqueQuarters>
@@ -125,11 +128,11 @@
 	</UniqueQuarters>
 	<GameModifiers>
 		<!-- Unique Quarter modifiers are game-wide -->
-		<Row ModifierId=""/>
+		<Row ModifierId="QUARTER_DAESACHAL_MOD_CITY_FOLLOWS_RELIGION_GOLD"/>
 	</GameModifiers>
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
-		<Row UniqueQuarterType="QUARTER_DAESACHAL" ModifierId=""/>
+		<Row UniqueQuarterType="QUARTER_DAESACHAL" ModifierId="QUARTER_DAESACHAL_MOD_CITY_FOLLOWS_RELIGION_GOLD"/>
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
 		<!-- Antique Revived Buildings -->

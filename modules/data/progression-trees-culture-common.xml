@@ -12,7 +12,7 @@
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<!-- Germania -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_AQ_MAIN_CHIEFDOM" TargetKind="KIND_MODIFIER" TargetType="MOD_REVEAL_CIV_CULTURE_TREE_GORYEO" UnlockDepth="1" Hidden="true"/>
+
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>
 	</ProgressionTreePrereqs>

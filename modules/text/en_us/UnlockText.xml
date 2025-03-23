@@ -9,11 +9,11 @@
 		</Row>
 
 		<Row Tag="LOC_UNLOCK_PLAY_AS_HIMIKO_GORYEO_TOOLTIP">
-			<Text>[B]Himiko[/B] was influenced by [B]Goryeo[/B] culture.</Text>
+			<Text>[B]{LOC_LEADER_HIMIKO_NAME}[/B] was influenced by [B]Goryeo[/B] culture.</Text>
 		</Row>
 		
-		<Row Tag="LOC_UNLOCK_PLAY_AS_HIMIKO_GORYEO_TOOLTIP">
-			<Text>[B]Himiko[/B] was from the same region as the [B]Goryeo[/B].</Text>
+		<Row Tag="LOC_UNLOCK_PLAY_AS_HIMIKO_ALT_GORYEO_TOOLTIP">
+			<Text>[B]{LOC_LEADER_HIMIKO_ALT_NAME}[/B] was from the same region as the [B]Goryeo[/B].</Text>
 		</Row>
 
 		<Row Tag="LOC_UNLOCK_PLAY_AS_TRUNG_TRAC_GORYEO_TOOLTIP">

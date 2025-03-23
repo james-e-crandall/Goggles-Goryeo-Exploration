@@ -37,8 +37,7 @@
 	<ProgressionTreePrereqs>
 		<!-- GORYEO -->
 		<Row Node="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" PrereqNode="NODE_CIVIC_EX_GORYEO_HOJOK"/>
-		<Row Node="NODE_CIVIC_EX_GORYEO_BYEOKRANDO" PrereqNode="NODE_CIVIC_EX_GORYEO_HOJOK"/>
-		<Row Node="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" PrereqNode="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR"/>
+		<Row Node="NODE_CIVIC_EX_GORYEO_BYEOKRANDO" PrereqNode="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR"/>
 
 	</ProgressionTreePrereqs>
 	<ProgressionTree_Advisories>
