@@ -30,7 +30,10 @@
 	<!-- Tier 1: Unlock Janggyeongjeon Unique Building and 'Cheollijangseong' Tradition. -->
 
 	<!-- Tier 2: Unlocks the ability to found a Religion. Unlocks a free additional Belief 'Tripitaka Koreana' to your Religion. -->
-
+	<Modifier id="PATRIOTIC_WAR_MOD_DEFEND_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<Argument name="AbilityType">ABILITY_TRADITION_EX_GORYEO_CHEOLLIJANGSEONG_DOMESTIC_TERRITORY</Argument>
+		<String context="Description">LOC_PATRIOTIC_WAR_MOD_DEFEND_ABILITY_DESCRIPTION</String>
+	</Modifier>
 
 	<!-- NODE_CIVIC_EX_GORYEO_BYEOKRANDO -->
 	<!-- Tier 1: Increased Gold on Improvements on Costal Marine and Navigable River. Unlocks 'Goryeo Cheongja' Tradition. -->

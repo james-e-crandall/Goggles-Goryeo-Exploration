@@ -8,12 +8,7 @@
 		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
 		<Argument name="Amount">2</Argument>
 		<Argument name="ConstructibleType">BUILDING_MEDIEVAL_WALLS</Argument>
-		<String context="Description">LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_1_DESCRIPTION</String>
-	</Modifier>
-
-	<Modifier id="TRADITION_EX_GORYEO_CHEOLLIJANGSEONG_DEFEND_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<Argument name="AbilityType">ABILITY_TRADITION_EX_GORYEO_CHEOLLIJANGSEONG_DOMESTIC_TERRITORY</Argument>
-		<String context="Description">LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_2_DESCRIPTION</String>
+		<String context="Description">LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_DESCRIPTION</String>
 	</Modifier>
 
 	<!-- TRADITION_EX_GORYEO_TRIPITAKA_KOREANA -->

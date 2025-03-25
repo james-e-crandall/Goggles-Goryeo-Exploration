@@ -37,12 +37,8 @@
 			<Text>Mahaparinibbana Sutta</Text>
 		</Row>
 
-		<Row Tag="LOC_CIVIC_EX_GORYEO_PATRIOTIC_WAR_1_DESCRIPTION">
-			<Text>Unlock Janggyeongjeon Unique Building and 'Cheollijangseong' Tradition.</Text>
-		</Row>
-
-		<Row Tag="LOC_CIVIC_EX_GORYEO_PATRIOTIC_WAR_2_DESCRIPTION">
-			<Text>Unlocks the ability to found a Religion. Unlocks a free additional Belief 'Tripitaka Koreana' to your Religion.</Text>
+		<Row Tag="LOC_PATRIOTIC_WAR_MOD_DEFEND_ABILITY_DESCRIPTION">
+			<Text>+3 Combat Strength on defense on your territory.</Text>
 		</Row>
 
 		<!-- Tradtion -->
@@ -50,12 +46,10 @@
 		<Row Tag="LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_NAME">
 			<Text>Cheollijangseong</Text>
 		</Row>
-		<Row Tag="LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_1_DESCRIPTION">
+		<Row Tag="LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_DESCRIPTION">
 			<Text>Gain Influence from Walled Districts.</Text>
 		</Row>
-		<Row Tag="LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_2_DESCRIPTION">
-			<Text>+3 Combat Strength on defense on your territory.</Text>
-		</Row>
+
 
 		<!-- Tripitaka Koreana TRIPITAKA_KOREANA -->
 		<Row Tag="LOC_TADITION_EX_GORYEO_TRIPITAKA_KOREANA_NAME">
