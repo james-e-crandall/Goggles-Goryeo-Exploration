@@ -6,9 +6,33 @@
             <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo</Path>
             <Context>DEFAULT</Context>
         </Row>
-          <Row>
+        <Row>
             <ID>cult_goryeo</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo</Path>
+            <Path>fs://game/goggles_civ_goryeo/icons/cult_goryeo.png</Path>
         </Row>
+
+        <Row>
+            <ID>BUILDING_SEOKTAP</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/buildicon_seoktap.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>BUILDING_JANGGYEONGJEON</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/buildicon_janggyeongjeon.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+
+        <Row>
+            <ID>UNIT_BYEOLMUBAN</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+
+        <Row>
+            <ID>UNIT_EUNGSA</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_eungsa.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+
     </IconDefinitions>
 </Database>

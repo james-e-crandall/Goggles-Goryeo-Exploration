@@ -18,10 +18,17 @@
 		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" CivilizationName="LOC_CIVILIZATION_GORYEO_NAME" CivilizationFullName="LOC_CIVILIZATION_GORYEO_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_GORYEO_DESCRIPTION" CivilizationIcon="civ_sym_goryeo.png"/>
 	</Civilizations>
 	<CivilizationItems>
+		<!-- Civ Trait -->
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="TRAIT_GORYEO_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_GORYEO_ABILITY_NAME" Description="LOC_TRAIT_GORYEO_ABILITY_DESCRIPTION"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="UNIT_UNIQUE_INFANTRY" Kind="KIND_UNIT" Name="LOC_UNIT_UNIQUE_INFANTRY_NAME" Description="LOC_UNIT_UNIQUE_INFANTRY_BASE_DESCRIPTION" Icon="ICON_UNIT_UNIQUE_INFANTRY"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="UNIT_UNIQUE_GREAT_PERSON" Kind="KIND_UNIT" Name="LOC_UNIT_GREAT_PERSON_NAME" Description="LOC_UNIT_GREAT_PERSON_DESCRIPTION" Icon="ICON_UNIT_GREAT_PERSON"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="BUILDING_UNIQUE_BUILDING" Kind="KIND_BUILDING" Name="LOC_BUILDING_UNIQUE_BUILDING_NAME" Description="LOC_BUILDING_UNIQUE_BUILDING_DESCRIPTION" Icon="BUILDING_UNIQUE_BUILDING"/>
+		<!-- Buidlings -->
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="BUILDING_SEOKTAP" Kind="KIND_BUILDING" Name="LOC_BUILDING_SEOKTAP_NAME" Description="LOC_BUILDING_SEOKTAP_DESCRIPTION" Icon="ICON_BUILDING_SEOKTAP"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="BUILDING_JANGGYEONGJEON" Kind="KIND_BUILDING" Name="LOC_BUILDING_JANGGYEONGJEON_NAME" Description="LOC_BUILDING_JANGGYEONGJEON_DESCRIPTION" Icon="ICON_BUILDING_JANGGYEONGJEON"/>
+
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="QUARTER_DAESACHAL" Kind="KIND_QUARTER" Name="LOC_QUARTER_DAESACHAL_NAME" Description="LOC_QUARTER_DAESACHAL_DESCRIPTION" Icon="city_uniquequarter"/>
+
+		<!-- Units -->
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="UNIT_BYEOLMUBAN" Kind="KIND_UNIT" Name="LOC_UNIT_BYEOLMUBAN_NAME" Description="LOC_UNIT_BYEOLMUBAN_DESCRIPTION" Icon="ICON_UNIT_BYEOLMUBAN"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="UNIT_EUNGSA" Kind="KIND_UNIT" Name="LOC_UNIT_EUNGSA_NAME" Description="LOC_UNIT_EUNGSA_DESCRIPTION" Icon="ICON_UNIT_EUNGSA"/>
 		
 	</CivilizationItems>
 	<CivilizationTags>

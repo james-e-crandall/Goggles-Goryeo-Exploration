@@ -5,82 +5,89 @@
 			<Text>Goryeo Civics</Text>
 		</Row>
 		<!-- HOJOK -->
-		<Row Tag="LOC_CIVIC_EX_HOJOK_NAME">
+		<Row Tag="LOC_CIVIC_EX_GORYEO_HOJOK_NAME">
 			<Text>Hojok</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_EX_HOJOK_QUOTE">
+		<Row Tag="LOC_CIVIC_EX_GORYEO_HOJOK_QUOTE">
 			<Text>All that we are is the result of what we have thought</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_EX_HOJOK_QUOTE_AUTHOR">
+		<Row Tag="LOC_CIVIC_EX_GORYEO_HOJOK_QUOTE_AUTHOR">
 			<Text>Dhammapada 1.1 </Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_EX_HOJOK_1_DESCRIPTION">
-			<Text>Increased Gold from Towns. Decreased Happiness from Towns. Unlocks Manwoldae Palace Wonder.</Text>
+		<Row Tag="LOC_HOJOK_MOD_GOLD_TOWNS_DESCRIPTION">
+			<Text>Increased Gold from Towns. </Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_EX_HOJOK_2_DESCRIPTION">
-			<Text> Unlocks Seoktap Unique Building. Increased Settlement Limit.</Text>
+		<Row Tag="LOC_HOJOK_MOD_HAPPINESS_TOWNS_DESCRIPTION">
+			<Text>Decreased Happiness from Towns.</Text>
 		</Row>
+		<Row Tag="LOC_HOJOK_MOD_ADJUST_SETTLEMENT_CAP_DESCRIPTION">
+			<Text>Increased Settlement Limit..</Text>
+		</Row>
+
 		<!-- Tradtion -->
 
 		<!-- PATRIOTIC_WAR -->
-		<Row Tag="LOC_CIVIC_EX_PATRIOTIC_WAR_NAME">
+		<Row Tag="LOC_CIVIC_EX_GORYEO_PATRIOTIC_WAR_NAME">
 			<Text>Patriotic War</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_EX_PATRIOTIC_WAR_QUOTE">
+		<Row Tag="LOC_CIVIC_EX_GORYEO_PATRIOTIC_WAR_QUOTE">
 			<Text>Be a lamp unto yourself. Work out your liberation with diligence.</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_EX_PATRIOTIC_WAR_QUOTE_AUTHOR">
+		<Row Tag="LOC_CIVIC_EX_GORYEO_PATRIOTIC_WAR_QUOTE_AUTHOR">
 			<Text>Mahaparinibbana Sutta</Text>
 		</Row>
 
-		<Row Tag="LOC_CIVIC_EX_PATRIOTIC_WAR_1_DESCRIPTION">
+		<Row Tag="LOC_CIVIC_EX_GORYEO_PATRIOTIC_WAR_1_DESCRIPTION">
 			<Text>Unlock Janggyeongjeon Unique Building and 'Cheollijangseong' Tradition.</Text>
 		</Row>
 
-		<Row Tag="LOC_CIVIC_EX_PATRIOTIC_WAR_2_DESCRIPTION">
+		<Row Tag="LOC_CIVIC_EX_GORYEO_PATRIOTIC_WAR_2_DESCRIPTION">
 			<Text>Unlocks the ability to found a Religion. Unlocks a free additional Belief 'Tripitaka Koreana' to your Religion.</Text>
 		</Row>
 
 		<!-- Tradtion -->
 		<!-- Cheollijangseong CHEOLLIJANGSEONG -->
-		<Row Tag="TADITION_EX_GORYEO_CHEOLLIJANGSEONG_NAME">
+		<Row Tag="LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_NAME">
 			<Text>Cheollijangseong</Text>
 		</Row>
-		<Row Tag="TADITION_EX_GORYEO_CHEOLLIJANGSEONG_DESCRIPTION">
-			<Text>Gain Influence from Walled Districts. Gain a free Support from Combats on your territory.</Text>
+		<Row Tag="LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_1_DESCRIPTION">
+			<Text>Gain Influence from Walled Districts.</Text>
+		</Row>
+		<Row Tag="LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_2_DESCRIPTION">
+			<Text>+3 Combat Strength on defense on your territory.</Text>
 		</Row>
 
 		<!-- Tripitaka Koreana TRIPITAKA_KOREANA -->
-		<Row Tag="TADITION_EX_GORYEO_TRIPITAKA_KOREANA_NAME">
+		<Row Tag="LOC_TADITION_EX_GORYEO_TRIPITAKA_KOREANA_NAME">
 			<Text>Tripitaka Koreana</Text>
 		</Row>
-		<Row Tag="TADITION_EX_GORYEO_TRIPITAKA_KOREANA_DESCRIPTION">
-			<Text>Every Janggyeongjeon gains one more Great Work Slot. Cities with Janggyeongjeon can build a project to gain Relics called 'Daejanggyeongpan'.</Text>
+		<Row Tag="LOC_TADITION_EX_GORYEO_TRIPITAKA_KOREANA_DESCRIPTION">
+			<Text>Every Janggyeongjeon gains one more Great Work Slot.</Text>
 		</Row>
 		
 		<!-- Byeokrando BYEOKRANDO -->
-		<Row Tag="LOC_CIVIC_EX_BYEOKRANDO_NAME">
+		<Row Tag="LOC_CIVIC_EX_GORYEO_BYEOKRANDO_NAME">
 			<Text>Byeokrando</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_EX_BYEOKRANDO_QUOTE">
+		<Row Tag="LOC_CIVIC_EX_GORYEO_BYEOKRANDO_QUOTE">
 			<Text>Just as a mother would protect her only child with her life, even so, let one cultivate a boundless love towards all beings</Text>
 		</Row>
-		<Row Tag="LOC_CIVIC_EX_BYEOKRANDO_QUOTE_AUTHOR">
+		<Row Tag="LOC_CIVIC_EX_GORYEO_BYEOKRANDO_QUOTE_AUTHOR">
 			<Text>Karaniya Metta Sutta</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_EX_BYEOKRANDO_1_DESCRIPTION">
-			<Text>Increased Gold on Improvements on Costal Marine and Navigable River. Unlocks 'Goryeo Cheongja' Tradition.</Text>
+		<Row Tag="LOC_BYEOKRANDO_MOD_GRANT_WAREHOUSE_YIELD_DESCRIPTION">
+			<Text>Increased Gold on Improvements on Costal Marine and Navigable River.</Text>
 		</Row>
-		<Row Tag="NODE_CIVIC_EX_BYEOKRANDO_2_DESCRIPTION">
+		<Row Tag="LOC_BYEOKRANDO_MOD_TRADE_INCOME_DESCRIPTION">
 			<Text>International Trade Routes from Goryeo gain additional Gold for its length.</Text>
 		</Row>
 
 		<!-- Tradtion -->
 		<!-- Goryeo Cheongja GORYEO_CHEONGJA -->
-		<Row Tag="TADITION_EX_GORYEO_CHEONGJA_NAME">
+		<Row Tag="LOC_TADITION_EX_GORYEO_CHEONGJA_NAME">
 			<Text>Goryeo Cheongja</Text>
 		</Row>
-		<Row Tag="TADITION_EX_GORYEO_CHEONGJA_DESCRIPTION">
+		<Row Tag="LOC_TADITION_EX_GORYEO_CHEONGJA_DESCRIPTION">
 			<Text>International Trade Routes gain Gold for every Warehouse in the Origin Settlement.</Text>
 		</Row>
 

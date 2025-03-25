@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Civ Unique Trees -->
+		<!-- Civ Unique Tree Nodes -->
+	</Types>
+	<TypeQuotes>
+	</TypeQuotes>
+	<ProgressionTrees>
+	</ProgressionTrees>
+	<ProgressionTreeNodes>
+	</ProgressionTreeNodes>
+	<ProgressionTreeNodeUnlocks>
+		<!--  -->
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_HERALDRY" TargetKind="KIND_UNIT" TargetType="UNIT_BYEOLMUBAN_2" UnlockDepth="1" RequiredTraitType="TRAIT_GORYEO"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_METAL_CASTING" TargetKind="KIND_UNIT" TargetType="UNIT_BYEOLMUBAN_3" UnlockDepth="1" RequiredTraitType="TRAIT_GORYEO"/>
+
+	</ProgressionTreeNodeUnlocks>
+	<ProgressionTreePrereqs>
+	</ProgressionTreePrereqs>
+	<ProgressionTree_Advisories>
+
+	</ProgressionTree_Advisories>
+</Database>

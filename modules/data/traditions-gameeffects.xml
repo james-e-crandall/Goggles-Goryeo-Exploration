@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-	<!-- ==================================================	-->
-	<!--	ANTIQUITY							-->
-	<!-- ==================================================	-->
-	<!-- TEMPLATE -->
+
+	<!-- TRADITION_EX_GORYEO_CHEOLLIJANGSEONG -->
+	<!-- Tradition - Cheollijangseong: Gain Influence from Walled Districts. Gain a free Support from Combats on your territory. -->
+
+	<Modifier id="TRADITION_EX_GORYEO_CHEOLLIJANGSEONG_MEDIEVAL_WALLS_DIPLOMACY" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_CONSTRUCTIBLE_YIELD">
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">2</Argument>
+		<Argument name="ConstructibleType">BUILDING_MEDIEVAL_WALLS</Argument>
+		<String context="Description">LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_1_DESCRIPTION</String>
+	</Modifier>
+
+	<Modifier id="TRADITION_EX_GORYEO_CHEOLLIJANGSEONG_DEFEND_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<Argument name="AbilityType">ABILITY_TRADITION_EX_GORYEO_CHEOLLIJANGSEONG_DOMESTIC_TERRITORY</Argument>
+		<String context="Description">LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_2_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- TRADITION_EX_GORYEO_TRIPITAKA_KOREANA -->
+	<!-- Belief - Tripitaka Koreana: Every Janggyeongjeon gains one more Great Work Slot. Cities with Janggyeongjeon can build a project to gain Relics called 'Daejanggyeongpan'. -->
+	<Modifier id="TRADITION_EX_GORYEO_TRIPITAKA_KOREANA_ADJUST_GREAT_WORK_SLOTS" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
+		<Argument name="ConstructibleType">BUILDING_JANGGYEONGJEON</Argument>
+		<Argument name="Amount">1</Argument>
+		<String context="Description">LOC_TADITION_EX_GORYEO_TRIPITAKA_KOREANA_DESCRIPTION</String>
+	</Modifier>
+
+	<!-- Tradition - Goryeo Cheongja: International Trade Routes gain Gold for every Warehouse in the Origin Settlement. -->
+	<!-- TRADITION_EX_GORYEO_CHEONGJA -->
+	<Modifier id="TRADITION_EX_GORYEO_CHEONGJA_TRADE_ROUTE_RANGE_LAND" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
+		<Requirement type="REQUIREMENT_CITY_HAS_BUILDING">
+			<Argument name="BuildingType">BUILDING_BRICKYARD</Argument>
+		</Requirement>
+		<Argument name="Amount">5</Argument>
+		<Argument name="DomainType">DOMAIN_LAND</Argument>
+		<String context="Description">LOC_TADITION_EX_GORYEO_CHEONGJA_DESCRIPTION</String>
+	</Modifier>
+
 
 
 </GameEffects>

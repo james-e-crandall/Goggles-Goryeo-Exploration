@@ -23,5 +23,15 @@
 			<Text>Janggyeongjeon Unique Culture Building. Ageless.</Text>
 		</Row>
 
+		<Row Tag="LOC_QUARTER_DAESACHAL_NAME">
+			<Text>Daesachal</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_DAESACHAL_DESCRIPTION">
+			<Text>Daesachal: Unique Quarter. Grants Gold for Happiness of the Settlement.</Text>
+		</Row>
+
+
+		
+
 	</EnglishText>
 </Database>

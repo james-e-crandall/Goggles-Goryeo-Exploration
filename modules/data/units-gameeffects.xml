@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
+	<!-- Units  -->
 	<Modifier id="BYEOLMUBAN_MOD_COMBAT_VS_CAVALRY" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_OPPONENT_UNIT_TAG_MATCHES">
@@ -17,5 +18,24 @@
 		<Argument name="Amount">1</Argument>
 		<String context="Preview">LOC_ABILITY_EUNGSA_DESCRIPTION</String>
 	</Modifier>
+
+	<!-- Tradtions -->
+	<Modifier id="TRADITION_EX_GORYEO_CHEOLLIJANGSEONG_ADJUST_UNIT_GIVE_DOMESTIC_COMBAT_ABILITY" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_IN_OWNER_TERRITORY" inverse="false">
+				<Argument name="friendlyOnly">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="AbilityType">ABILITY_TRADITION_EX_GORYEO_CHEOLLIJANGSEONG_UNIT_DEFEND</Argument>
+	</Modifier>
+
+	<Modifier id="TRADITION_EX_GORYEO_CHEOLLIJANGSEONG_ADJUST_UNIT_COMBAT_STRENGTH_MODIFIER" collection="COLLECTION_UNIT_COMBAT" effect="EFFECT_ADJUST_UNIT_STRENGTH_MODIFIER">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLAYER_IS_ATTACKING" inverse="true"/>
+		</SubjectRequirements>
+		<Argument name="Amount">3</Argument>
+		<String context="Preview">LOC_ABILITY_GORYEO_CHEOLLIJANGSEONG_COMBAT_PREVIEW</String>
+	</Modifier>
+
 
 </GameEffects>

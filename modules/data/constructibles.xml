@@ -100,6 +100,9 @@
 	</Constructible_WarehouseYields>
 
 	<Warehouse_YieldChanges>
+		<Row ID="ByeokrandoMarineGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" BiomeInCity="BIOME_MARINE"/>
+		<Row ID="ByeokrandoNavigableRiverGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" NavigableRiverInCity="ture"/>
+		<Row ID="ByeokrandoMinorRiverGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" MinorRiverInCity="true"/>
 
  	</Warehouse_YieldChanges>
 

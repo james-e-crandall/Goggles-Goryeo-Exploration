@@ -1,17 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
-	<!-- ==================================================	-->
-	<!--	Germania							-->
-	<!-- ==================================================	-->
-	<!-- FIST -->
+	<!-- HOJOK -->
+	<!-- Tier 1: Increased Gold from Towns. Decreased Happiness from Towns. Unlocks Manwoldae Palace Wonder. -->
+	<Modifier id="HOJOK_MOD_GOLD_TOWNS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Amount">6</Argument>
+		<Argument name="Tooltip">LOC_CIVIC_EX_GORYEO_HOJOK_NAME</Argument>
+		<String context="Description">LOC_HOJOK_MOD_GOLD_TOWNS_DESCRIPTION</String>
+	</Modifier>
+	<Modifier id="HOJOK_MOD_HAPPINESS_TOWNS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+		</SubjectRequirements>
+		<Argument name="Amount">-3</Argument>
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Tooltip">LOC_CIVIC_EX_GORYEO_HOJOK_NAME</Argument>
+		<String context="Description">LOC_HOJOK_MOD_HAPPINESS_TOWNS_DESCRIPTION</String>
+	</Modifier>
+	<!-- Tier 2: Unlocks Seoktap Unique Building. Increased Settlement Limit. -->
+	<Modifier id="HOJOK_MOD_ADJUST_SETTLEMENT_CAP" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP">
+		<Argument name="Amount">2</Argument>
+		<String context="Description">LOC_HOJOK_MOD_ADJUST_SETTLEMENT_CAP_DESCRIPTION</String>
+	</Modifier>
 
-	<!-- SECOND -->
-	<!-- Level 1 -->
+	<!-- PATRIOTIC_WAR -->
+	<!-- Tier 1: Unlock Janggyeongjeon Unique Building and 'Cheollijangseong' Tradition. -->
+
+	<!-- Tier 2: Unlocks the ability to found a Religion. Unlocks a free additional Belief 'Tripitaka Koreana' to your Religion. -->
 
 
-	<!-- Level 2 -->
+	<!-- NODE_CIVIC_EX_GORYEO_BYEOKRANDO -->
+	<!-- Tier 1: Increased Gold on Improvements on Costal Marine and Navigable River. Unlocks 'Goryeo Cheongja' Tradition. -->
+	<Modifier id="BYEOKRANDO_MOD_GRANT_WAREHOUSE_YIELD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">ByeokrandoMarineGold, ByeokrandoNavigableRiverGold, ByeokrandoMinorRiverGold</Argument>
+		<String context="Description">LOC_BYEOKRANDO_MOD_GRANT_WAREHOUSE_YIELD_DESCRIPTION</String>
+	</Modifier>
+	<!-- Tier 2: International Trade Routes from Goryeo gain additional Gold for its length. -->
 
-	<!-- SECOND -->
+	<Modifier id="BYEOKRANDO_MOD_TRADE_INCOME" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_YIELD">
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+		<Argument name="Percent">25</Argument>
+		<Argument name="Tooltip">LOC_CIVIC_EX_GORYEO_BYEOKRANDO_NAME</Argument>
+		<String context="Description">LOC_BYEOKRANDO_MOD_TRADE_INCOME_DESCRIPTION</String>
+	</Modifier>
+
 
 
 

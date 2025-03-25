@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+
+Compatablity with 
+"Greatest Earth Map" start position
+
+	<!-- +++++++++++++++++++++++++++++++++++ -->
+	<!-- Compatablity with ynamp "Greatest Earth Map" start position -->
+	<!-- https://www.sukrittan.com/Mod_Apps/TSLPlanner/?Map=GreatestEarthMap -->
+	<!-- +++++++++++++++++++++++++++++++++++ -->
+
+	<StartPosition>
+		<!-- Civ7 -->
+		<Replace MapName="GreatestEarthMap" Civilization="CIVILIZATION_GORYEO"			X="92"	Y="50" />
+    </StartPosition>
+
+
+</Database>
