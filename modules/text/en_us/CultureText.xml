@@ -37,26 +37,25 @@
 			<Text>Mahaparinibbana Sutta</Text>
 		</Row>
 
-		<Row Tag="LOC_PATRIOTIC_WAR_MOD_DEFEND_ABILITY_DESCRIPTION">
-			<Text>+3 Combat Strength on defense on your territory.</Text>
+		<Row Tag="LOC_PATRIOTIC_WAR_MOD_GRANT_UNIT_PROMOTION_DESCRIPTION">
+			<Text>Commanders gain the Shock Tactics promotion.</Text>
 		</Row>
 
 		<!-- Tradtion -->
 		<!-- Cheollijangseong CHEOLLIJANGSEONG -->
-		<Row Tag="LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_NAME">
+		<Row Tag="LOC_TRADITION_EX_GORYEO_CHEOLLIJANGSEONG_NAME">
 			<Text>Cheollijangseong</Text>
 		</Row>
-		<Row Tag="LOC_TADITION_EX_GORYEO_CHEOLLIJANGSEONG_DESCRIPTION">
+		<Row Tag="LOC_TRADITION_EX_GORYEO_CHEOLLIJANGSEONG_DESCRIPTION">
 			<Text>Gain Influence from Walled Districts.</Text>
 		</Row>
 
-
 		<!-- Tripitaka Koreana TRIPITAKA_KOREANA -->
-		<Row Tag="LOC_TADITION_EX_GORYEO_TRIPITAKA_KOREANA_NAME">
+		<Row Tag="LOC_TRADITION_EX_GORYEO_TRIPITAKA_KOREANA_NAME">
 			<Text>Tripitaka Koreana</Text>
 		</Row>
-		<Row Tag="LOC_TADITION_EX_GORYEO_TRIPITAKA_KOREANA_DESCRIPTION">
-			<Text>Every Janggyeongjeon gains one more Great Work Slot.</Text>
+		<Row Tag="LOC_TRADITION_EX_GORYEO_TRIPITAKA_KOREANA_DESCRIPTION">
+			<Text>+1 Influence per Great Works.</Text>
 		</Row>
 		
 		<!-- Byeokrando BYEOKRANDO -->
@@ -72,17 +71,20 @@
 		<Row Tag="LOC_BYEOKRANDO_MOD_GRANT_WAREHOUSE_YIELD_DESCRIPTION">
 			<Text>Increased Gold on Improvements on Costal Marine and Navigable River.</Text>
 		</Row>
+		<Row Tag="LOC_BYEOKRANDO_MOD_ADJUST_GREAT_WORK_SLOTS_DESCRIPTION">
+			<Text>Every Janggyeongjeon gains one more Great Work Slot.</Text>
+		</Row>
 		<Row Tag="LOC_BYEOKRANDO_MOD_TRADE_INCOME_DESCRIPTION">
-			<Text>International Trade Routes from Goryeo gain additional Gold for its length.</Text>
+			<Text>More Gold from trade routes.</Text>
 		</Row>
 
 		<!-- Tradtion -->
 		<!-- Goryeo Cheongja GORYEO_CHEONGJA -->
-		<Row Tag="LOC_TADITION_EX_GORYEO_CHEONGJA_NAME">
+		<Row Tag="LOC_TRADITION_EX_GORYEO_CHEONGJA_NAME">
 			<Text>Goryeo Cheongja</Text>
 		</Row>
-		<Row Tag="LOC_TADITION_EX_GORYEO_CHEONGJA_DESCRIPTION">
-			<Text>International Trade Routes gain Gold for every Warehouse in the Origin Settlement.</Text>
+		<Row Tag="LOC_TRADITION_EX_GORYEO_CHEONGJA_DESCRIPTION">
+			<Text>+10 Sea Trade Route Range.</Text>
 		</Row>
 
 </EnglishText>

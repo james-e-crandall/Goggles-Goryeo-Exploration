@@ -1,56 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">
 	<!-- HOJOK -->
-	<!-- Tier 1: Increased Gold from Towns. Decreased Happiness from Towns. Unlocks Manwoldae Palace Wonder. -->
-	<Modifier id="HOJOK_MOD_GOLD_TOWNS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
-		</SubjectRequirements>
+	<!-- works -->
+	<Modifier id="HOJOK_MOD_GOLD_TOWNS" collection="COLLECTION_PLAYER_CAPITAL_CITY" effect="EFFECT_CITY_ADJUST_YIELD_PER_NUM_CITIES">
 		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount">6</Argument>
+		<Argument name="Amount">5</Argument>
+		<Argument name="Cities">false</Argument>
+		<Argument name="Towns">true</Argument>
 		<Argument name="Tooltip">LOC_CIVIC_EX_GORYEO_HOJOK_NAME</Argument>
 		<String context="Description">LOC_HOJOK_MOD_GOLD_TOWNS_DESCRIPTION</String>
 	</Modifier>
+	<!-- works -->
 	<Modifier id="HOJOK_MOD_HAPPINESS_TOWNS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
 		</SubjectRequirements>
-		<Argument name="Amount">-3</Argument>
+		<Argument name="Amount">-2</Argument>
 		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
 		<Argument name="Tooltip">LOC_CIVIC_EX_GORYEO_HOJOK_NAME</Argument>
 		<String context="Description">LOC_HOJOK_MOD_HAPPINESS_TOWNS_DESCRIPTION</String>
 	</Modifier>
-	<!-- Tier 2: Unlocks Seoktap Unique Building. Increased Settlement Limit. -->
+	<!-- Tier 2:  -->
+	<!-- works -->
 	<Modifier id="HOJOK_MOD_ADJUST_SETTLEMENT_CAP" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_SETTLEMENT_CAP">
-		<Argument name="Amount">2</Argument>
+		<Argument name="Amount">1</Argument>
 		<String context="Description">LOC_HOJOK_MOD_ADJUST_SETTLEMENT_CAP_DESCRIPTION</String>
 	</Modifier>
 
 	<!-- PATRIOTIC_WAR -->
-	<!-- Tier 1: Unlock Janggyeongjeon Unique Building and 'Cheollijangseong' Tradition. -->
+	<!-- Tier 1: -->
 
-	<!-- Tier 2: Unlocks the ability to found a Religion. Unlocks a free additional Belief 'Tripitaka Koreana' to your Religion. -->
-	<Modifier id="PATRIOTIC_WAR_MOD_DEFEND_ABILITY" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_UNIT_ADJUST_ABILITY">
-		<Argument name="AbilityType">ABILITY_TRADITION_EX_GORYEO_CHEOLLIJANGSEONG_DOMESTIC_TERRITORY</Argument>
-		<String context="Description">LOC_PATRIOTIC_WAR_MOD_DEFEND_ABILITY_DESCRIPTION</String>
+	<!-- Tier 2: -->
+	<!-- works -->
+	<Modifier id="PATRIOTIC_WAR_MOD_GRANT_UNIT_PROMOTION" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_GRANT_UNIT_PROMOTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitPromotionType">PROMOTION_ARMY_SHOCK_TACTICS</Argument>
+		<Argument name="UnitPromotionDisciplineType">DISCIPLINE_ARMY_ASSAULT</Argument>
+		<String context="Description">LOC_PATRIOTIC_WAR_MOD_GRANT_UNIT_PROMOTION_DESCRIPTION</String>
 	</Modifier>
 
 	<!-- NODE_CIVIC_EX_GORYEO_BYEOKRANDO -->
-	<!-- Tier 1: Increased Gold on Improvements on Costal Marine and Navigable River. Unlocks 'Goryeo Cheongja' Tradition. -->
+	<!-- Tier 1: -->
+	<!-- works -->
+
 	<Modifier id="BYEOKRANDO_MOD_GRANT_WAREHOUSE_YIELD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
 		<Argument name="WarehouseYieldChange">ByeokrandoMarineGold, ByeokrandoNavigableRiverGold, ByeokrandoMinorRiverGold</Argument>
 		<String context="Description">LOC_BYEOKRANDO_MOD_GRANT_WAREHOUSE_YIELD_DESCRIPTION</String>
 	</Modifier>
-	<!-- Tier 2: International Trade Routes from Goryeo gain additional Gold for its length. -->
+	<!-- works -->
+	<Modifier id="BYEOKRANDO_MOD_ADJUST_GREAT_WORK_SLOTS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
+		<Argument name="ConstructibleType">BUILDING_JANGGYEONGJEON</Argument>
+		<Argument name="SlotType">GREATWORKSLOT_RELIC</Argument>
+		<Argument name="Amount">5</Argument>
+		<String context="Description">LOC_BYEOKRANDO_MOD_ADJUST_GREAT_WORK_SLOTS_DESCRIPTION</String>
+	</Modifier>
 
+	<!-- Tier 2: -->
 	<Modifier id="BYEOKRANDO_MOD_TRADE_INCOME" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_YIELD">
 		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Percent">25</Argument>
+		<Argument name="Percent">250</Argument>
 		<Argument name="Tooltip">LOC_CIVIC_EX_GORYEO_BYEOKRANDO_NAME</Argument>
 		<String context="Description">LOC_BYEOKRANDO_MOD_TRADE_INCOME_DESCRIPTION</String>
 	</Modifier>
-
-
-
 
 </GameEffects>

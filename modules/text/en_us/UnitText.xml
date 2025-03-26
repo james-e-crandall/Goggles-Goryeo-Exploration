@@ -6,28 +6,26 @@
 			<Text>Byeolmuban</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_BYEOLMUBAN_BASE_DESCRIPTION">
-			<Text>Goryeo Unique Cavalry Unit. Increased Combat Strength against Cavalry Units. Automatically Fortifies after Attack.</Text>
+			<Text>Goryeo Unique Cavalry Unit. Increased Combat Strength against Cavalry Units.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_BYEOLMUBAN_DESCRIPTION">
-			<Text>Goryeo Unique Cavalry Unit. Increased Combat Strength against Cavalry Units. Automatically Fortifies after Attack.</Text>
+			<Text>Goryeo Unique Cavalry Unit. Increased Combat Strength against Cavalry Units.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_BYEOLMUBAN_2_DESCRIPTION">
-			<Text>Tier 2 GoryeoUn ique Cavalry Unit. Increased Combat Strength against Cavalry Units. Automatically Fortifies after Attack.</Text>	
+			<Text>Tier 2 GoryeoUn ique Cavalry Unit. Increased Combat Strength against Cavalry Units.</Text>	
 		</Row>
 		<Row Tag="LOC_UNIT_BYEOLMUBAN_3_DESCRIPTION">
-			<Text>Tier 3 Goryeo Unique Cavalry Unit. Increased Combat Strength against Cavalry Units. Automatically Fortifies after Attack.</Text>	
+			<Text>Tier 3 Goryeo Unique Cavalry Unit. Increased Combat Strength against Cavalry Units.</Text>	
 		</Row>
 
 		<Row Tag="LOC_UNIT_EUNGSA_NAME">
 			<Text>Eungsa</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_EUNGSA_DESCRIPTION">
-			<Text>Goryeo Unique Scout Unit. Increased Sight Range. Can be activated at the neutral or friendly Civilization's territory, then removes the Unit and gains Influence.</Text>
+			<Text>Goryeo Unique Scout Unit.</Text>
 		</Row>
 
 		<!-- Unit Abilities -->
-
-
 		<Row Tag="LOC_ABILITY_TRADITION_EX_GORYEO_CHEOLLIJANGSEONG_DOMESTIC_TERRITORY_NAME">
 			<Text>CHEOLLIJANGSEONG_DOMESTIC_TERRITORY NAME</Text>
 		</Row>
@@ -43,7 +41,6 @@
 		<Row Tag="LOC_ABILITY_TRADITION_EX_GORYEO_CHEOLLIJANGSEONG_UNIT_DEFEND_DESCRIPTION">
 			<Text>CHEOLLIJANGSEONG_UNIT_DEFEND DESCRIPTION</Text>
 		</Row>
-
 
 		<Row Tag="LOC_ABILITY_BYEOLMUBAN_PREVIEW">
 			<Text>+{1_Amount} Byeolmuban</Text>

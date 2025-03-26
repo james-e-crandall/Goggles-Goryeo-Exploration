@@ -7,10 +7,10 @@
 			<Requirement type="REQUIREMENT_CITY_FOLLOWS_RELIGION"/>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
 		</SubjectRequirements>
-		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
-		<Argument name="Percent">15</Argument>
-		<Argument name="Tooltip">LOC_TRADITION_RATIONALISM_NAME</Argument>
-		<String context="Description">LOC_TRADITION_RATIONALISM_DESCRIPTION</String>
+		<Argument name="YieldType">YIELD_CULTURE</Argument>
+		<Argument name="Percent">1000</Argument>
+		<Argument name="Tooltip">LOC_QUARTER_DAESACHAL_NAME</Argument>
+		<String context="Description">LOC_QUARTER_DAESACHAL_DESCRIPTION</String>
 	</Modifier>
 
 

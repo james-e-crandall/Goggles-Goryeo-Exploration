@@ -68,8 +68,8 @@
 	<Constructible_YieldChanges>
 
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_SEOKTAP" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldType="YIELD_HAPPINESS" YieldChange="1"/>
 		
 		<!-- Civ Unique Improvements -->
 
@@ -77,22 +77,23 @@
 	<Constructible_Maintenances>
 
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_SEOKTAP" YieldType="YIELD_GOLD" Amount="3"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP" YieldType="YIELD_GOLD" Amount="4"/>
 		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldType="YIELD_GOLD" Amount="3"/>
 		
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
 		<!-- Civ Uniques -->
-		<Row ConstructibleType="BUILDING_SEOKTAP" YieldChangeId="MountainHappiness"/>
-		<Row ConstructibleType="BUILDING_SEOKTAP" YieldChangeId="NaturalWonderHappiness"/>
-		<Row ConstructibleType="BUILDING_SEOKTAP" YieldChangeId="WonderHappiness"/>
-		
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="ResourceScience"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="WonderScience"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP" YieldChangeId="MountainCulture"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP" YieldChangeId="NaturalWonderCulture"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP" YieldChangeId="WonderCulture"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP" YieldChangeId="SeoktapCoastCulture"/>
 
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="MountainHappiness"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="NaturalWonderHappiness"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="WonderHappiness"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
-
+		<Row ID="SeoktapCoastCulture" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentTerrain="TERRAIN_COAST"/>
 	</Adjacency_YieldChanges>
 
 	<Constructible_WarehouseYields>
@@ -101,9 +102,8 @@
 
 	<Warehouse_YieldChanges>
 		<Row ID="ByeokrandoMarineGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" BiomeInCity="BIOME_MARINE"/>
-		<Row ID="ByeokrandoNavigableRiverGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" NavigableRiverInCity="ture"/>
+		<Row ID="ByeokrandoNavigableRiverGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" NavigableRiverInCity="true"/>
 		<Row ID="ByeokrandoMinorRiverGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" MinorRiverInCity="true"/>
-
  	</Warehouse_YieldChanges>
 
 	<Constructible_WildcardAdjacencies>
@@ -115,19 +115,13 @@
 	<Constructible_Plunders>
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_SEOKTAP" PlunderType="PLUNDER_CULTURE" Amount="80"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" PlunderType="PLUNDER_SCIENCE" Amount="80"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" PlunderType="PLUNDER_CULTURE" Amount="80"/>
 		
 	</Constructible_Plunders>
 	<ConstructibleModifiers>
-		<!-- Civ Uniques -->
-
-		<!-- <Row ConstructibleType="BUILDING_SEOKTAP" ModifierId="BUILDING_SEOKTAP_MOD_CITY_FOLLOWS_RELIGION_GOLD"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" ModifierId="BUILDING_SEOKTAP_MOD_CITY_FOLLOWS_RELIGION_GOLD"/>
-	 -->
-
 	</ConstructibleModifiers>
 	<UniqueQuarters>
-		<Row UniqueQuarterType="QUARTER_DAESACHAL" BuildingType1="BUILDING_SEOKTAP" BuildingType2="BUILDING_JANGGYEONGJEON" Name="LOC_QUARTER_DAESACHAL_NAME" Description="LOC_QUARTER_DAESACHAL_DESCRIPTION" TraitType="TRAIT_GORYEO"/>
+		<Row UniqueQuarterType="QUARTER_DAESACHAL" BuildingType1="BUILDING_SEOKTAP" BuildingType2="BUILDING_JANGGYEONGJEON" Name="LOC_QUARTER_DAESACHAL_NAME" Description="LOC_QUARTER_DAESACHAL_DESCRIPTION" Tooltip="LOC_QUARTER_DAESACHAL_TOOLTIP" TraitType="TRAIT_GORYEO"/>
 	</UniqueQuarters>
 	<GameModifiers>
 		<!-- Unique Quarter modifiers are game-wide -->

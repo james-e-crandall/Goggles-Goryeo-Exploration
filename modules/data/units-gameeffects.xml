@@ -11,14 +11,6 @@
 		<String context="Preview">LOC_ABILITY_BYEOLMUBAN_PREVIEW</String>
 	</Modifier>
 
-	<Modifier id="EUNGSA_MOD_SIGHT_DISTANT_LANDS" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_ADJUST_UNIT_SIGHT">
-		<SubjectRequirements>
-			<Requirement type="REQUIREMENT_UNIT_IS_IN_HOMELANDS" inverse="true"/>
-		</SubjectRequirements>
-		<Argument name="Amount">1</Argument>
-		<String context="Preview">LOC_ABILITY_EUNGSA_DESCRIPTION</String>
-	</Modifier>
-
 	<!-- Tradtions -->
 	<Modifier id="TRADITION_EX_GORYEO_CHEOLLIJANGSEONG_ADJUST_UNIT_GIVE_DOMESTIC_COMBAT_ABILITY" collection="COLLECTION_OWNER" effect="EFFECT_UNIT_ADJUST_ABILITY">
 		<SubjectRequirements>

@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameEffects xmlns="GameEffects">	
-	<!-- ==================================================	-->
-	<!--	
-	
-	Civ-Specific Traits
-		Gains Influence for every Tradition slotted into the Government. Gains a free Byeolmuban once each Diplomatic Endeavor is completed.
-
-									-->
-	<!-- ==================================================	-->
+	<!-- works -->
 	<Modifier id="TRAIT_GORYEO_NEGOTIATION_OF_SEOHUI_PER_ACTIVE_TRADITION" collection="COLLECTION_OWNER" effect="EFFECT_PLAYER_ADJUST_YIELD_PER_ACTIVE_TRADITION">
 		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
-		<Argument name="Amount">5</Argument>
+		<Argument name="Amount">2</Argument>
 		<Argument name="CivUnique">true</Argument>
 		<Argument name="Invert">false</Argument>
 	</Modifier>
-
+	<!-- works -->
 	<Modifier id="TRAIT_GORYEO_NEGOTIATION_OF_SEOHUI_ON_DIPLO_EVENT_END" collection="COLLECTION_OWNER" effect="TRIGGER_PLAYER_GRANT_YIELD_ON_DIPLO_EVENT_END">
 		<Argument name="ActionGroupType">DIPLOMACY_ACTION_GROUP_ENDEAVOR</Argument>
 		<Argument name="YieldType">YIELD_GOLD</Argument>
-		<Argument name="Amount" type="ScaleByGameAge" extra="100">1</Argument>
+		<Argument name="Amount" type="ScaleByGameAge" extra="50">50</Argument>
 	</Modifier>
 
 	<!-- ==================================================	-->
