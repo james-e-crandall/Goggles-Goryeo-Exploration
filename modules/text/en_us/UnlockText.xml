@@ -23,6 +23,10 @@
 		<Row Tag="LOC_UNLOCK_PLAY_AS_CONFUCIUS_GORYEO_TOOLTIP">
 			<Text>[B]Confucius[/B] teaching influenced the [B]Goryeo[/B] culture.</Text>
 		</Row>
+		
+		<Row Tag="LOC_UNLOCK_PLAY_AS_KHMER_GORYEO_TOOLTIP">
+			<Text>The [B]Goryeo [/B] is from the same continent as [B]Khmer [/b].</Text>
+		</Row>
 
 	</EnglishText>
 </Database>

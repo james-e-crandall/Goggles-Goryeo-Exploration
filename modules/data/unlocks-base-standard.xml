@@ -10,6 +10,7 @@
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO"/>
 	</Unlocks>
 	<UnlockRewards>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO" Name="LOC_CIVILIZATION_GORYEO_NAME" Description="LOC_UNLOCK_EXPLORATION_CIV_DESCRIPTION" Icon="CIVILIZATION_GORYEO" CivUnlock="true"/>
 	</UnlockRewards>
 	<RequirementSets>
 		<Row RequirementSetId="REQSET_CIV_IS_GORYEO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
@@ -24,7 +25,10 @@
 		<Row RequirementSetId="REQSET_CIV_IS_GORYEO" RequirementId="REQ_CIV_IS_GORYEO"/>
 	</RequirementSetRequirements>
 	<UnlockRequirements>
-		<Row UnlockType="UNLOCK_CIVILIZATION_GORYEO" RequirementSetId="REQSET_CIV_IS_GORYEO" Description="LOC_UNLOCK_PLAY_AS_GORYEO_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_GORYEO_SILLA_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO" RequirementSetId="REQSET_LEADER_IS_CONFUCIUS" Description="LOC_UNLOCK_PLAY_AS_CONFUCIUS_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_CONFUCIUS_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO" RequirementSetId="REQSET_LEADER_IS_HIMIKO" Description="LOC_UNLOCK_PLAY_AS_HIMIKO_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_HIMIKO_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO" RequirementSetId="REQSET_LEADER_IS_TRUNG_TRAC" Description="LOC_UNLOCK_PLAY_AS_TRUNG_TRAC_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_TRUNG_TRAC_TOOLTIP"/>
+	
 	</UnlockRequirements>
 	<UnlockConfigurationValues>
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO" ConfigurationValue="CIVILIZATION_GORYEO"/>

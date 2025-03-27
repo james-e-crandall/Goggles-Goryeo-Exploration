@@ -18,20 +18,20 @@
 	</AiListTypes>
 	<AiLists>
 		<!-- Goryeo -->
-		<Row ListType="Goryeo Unit Biases" LeaderType="TRAIT_Goryeo" System="UnitBiases"/>
-		<Row ListType="Goryeo Government Bias" LeaderType="TRAIT_Goryeo" System="GovernmentBiases"/>
-		<Row ListType="Goryeo Constructibles Biases" LeaderType="TRAIT_Goryeo" System="ConstructibleBiases" />	
-		<Row ListType="Goryeo Budget Biases" LeaderType="TRAIT_Goryeo" System="AiBudgetBiases"/>	
-		<Row ListType="Goryeo PseudoYield Biases" LeaderType="TRAIT_Goryeo" System="PseudoYieldBiases"/>	
+		<Row ListType="Goryeo Unit Biases" LeaderType="TRAIT_GORYEO" System="UnitBiases"/>
+		<Row ListType="Goryeo Government Bias" LeaderType="TRAIT_GORYEO" System="GovernmentBiases"/>
+		<Row ListType="Goryeo Constructibles Biases" LeaderType="TRAIT_GORYEO" System="ConstructibleBiases" />	
+		<Row ListType="Goryeo Budget Biases" LeaderType="TRAIT_GORYEO" System="AiBudgetBiases"/>	
+		<Row ListType="Goryeo PseudoYield Biases" LeaderType="TRAIT_GORYEO" System="PseudoYieldBiases"/>	
 	</AiLists>
 	<AiFavoredItems>
 		<!-- Goryeo -->
-    <Row ListType="Chola Government Bias" Item="GOVERNMENT_PLUTOCRACY" Value="50"/>
-		<Row ListType="Goryeo Constructibles Biases" Item="BUILDING_FISHING_QUAY" Value="200" />
-		<Row ListType="Goryeo Unit Biases" Item="UNIT_UNIQUE_INFANTRY" Value="50"/>
-		<Row ListType="Goryeo Unit Biases" Item="UNIT_UNIQUE_INFANTRY_2" Value="50"/>
-		<Row ListType="Goryeo Unit Biases" Item="UNIT_UNIQUE_INFANTRY_3" Value="50"/>
-		<Row ListType="Goryeo Unit Biases" Item="UNIT_UNIQUE_GREAT_PERSON" Value="200"/>
+		<Row ListType="Goryeo Constructibles Biases" Item="BUILDING_SEOKTAP" Value="200" />
+		<Row ListType="Goryeo Constructibles Biases" Item="BUILDING_JANGGYEONGJEON" Value="200" />
+		<Row ListType="Goryeo Unit Biases" Item="UNIT_BYEOLMUBAN" Value="50"/>
+		<Row ListType="Goryeo Unit Biases" Item="UNIT_BYEOLMUBAN_2" Value="50"/>
+		<Row ListType="Goryeo Unit Biases" Item="UNIT_BYEOLMUBAN_3" Value="50"/>
+		<Row ListType="Goryeo Unit Biases" Item="UNIT_EUNGSA" Value="50"/>
 	</AiFavoredItems>
 	<!-- City Strategies -->
 	<Strategies>

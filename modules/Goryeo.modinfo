@@ -33,6 +33,9 @@
 		<Criteria id="always">
 			<AlwaysMet></AlwaysMet>
 		</Criteria>
+        <Criteria all="true" id="ashoka-himiko-alt-enable">
+            <ModInUse>ashoka-himiko-alt</ModInUse>
+        </Criteria>
         <Criteria all="true" id="ged-ynamp-enable">
             <ModInUse>ged-ynamp</ModInUse>
         </Criteria>
@@ -46,6 +49,16 @@
 			<Actions>
                 <UpdateDatabase>
 					<Item>ynamp/data/greatest-earth.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+		</ActionGroup>
+		<ActionGroup id="base-game-main-ged-ynamp" scope="game" criteria="ashoka-himiko-alt-enable">
+            <Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Actions>
+                <UpdateDatabase>
+					<Item>ashoka-himiko-alt/data/unlocks-exploration.xml</Item>
                 </UpdateDatabase>
             </Actions>
 		</ActionGroup>
@@ -78,6 +91,8 @@
 					<Item>icons/buildicon_janggyeongjeon.png</Item>
 					<Item>icons/unitflag_byeolmuban.png</Item>
 					<Item>icons/unitflag_eungsa.png</Item>
+					<Item>icons/lsbg_goryeo_720</Item>
+					<Item>icons/lsbg_goryeo_1080</Item>
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/Goryeo.xml</Item>
@@ -86,6 +101,17 @@
                 </ScenarioScripts>
             </Actions>
         </ActionGroup>
+		<ActionGroup id="age-antiquity-main-goryeo" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateArt>
+					<Item>bulgaria</Item>
+				</UpdateArt>
+				<UpdateDatabase>
+					<Item>data/unlocks-antiquity.xml</Item>
+				</UpdateDatabase>
+			</Actions>
+		</ActionGroup>
+
 		<ActionGroup id="age-antiquity-persist-goryeo" scope="game" criteria="exploration-age-persist">
 			<Properties>
 				<LoadOrder>100</LoadOrder>
@@ -153,6 +179,8 @@
 					<Item>icons/buildicon_janggyeongjeon.png</Item>
 					<Item>icons/unitflag_byeolmuban.png</Item>
 					<Item>icons/unitflag_eungsa.png</Item>
+					<Item>icons/lsbg_goryeo_720</Item>
+					<Item>icons/lsbg_goryeo_1080</Item>
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/Goryeo.xml</Item>

@@ -13,14 +13,13 @@
 	<!-- works -->
 	<Modifier id="TRADITION_EX_GORYEO_TRIPITAKA_KOREANA_GREAT_WORK_DIPLOMACY" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_GREAT_WORK">
 		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
-		<Argument name="Amount">100</Argument>
+		<Argument name="Amount">1</Argument>
 		<Argument name="Tooltip">LOC_TRADITION_EX_GORYEO_TRIPITAKA_KOREANA_NAME</Argument>
 		<String context="Description">LOC_TRADITION_EX_GORYEO_TRIPITAKA_KOREANA_DESCRIPTION</String>
 	</Modifier>
 	<!-- TRADITION_EX_GORYEO_CHEONGJA -->
-	<Modifier id="TRADITION_EX_GORYEO_CHEONGJA_TRADE_ROUTE_RANGE_SEA" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_TRADE_ROUTE_RANGE">
-		<Argument name="DomainType">DOMAIN_SEA</Argument>
-		<Argument name="Amount">10</Argument>
+	<Modifier id="TRADITION_EX_GORYEO_CHEONGJA_GRANT_WAREHOUSE_YIELD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">ByeokrandoMarineGold</Argument>
 		<String context="Description">LOC_TRADITION_EX_GORYEO_CHEONGJA_DESCRIPTION</String>
 	</Modifier>
 

@@ -69,7 +69,7 @@
 			<Text>Karaniya Metta Sutta</Text>
 		</Row>
 		<Row Tag="LOC_BYEOKRANDO_MOD_GRANT_WAREHOUSE_YIELD_DESCRIPTION">
-			<Text>Increased Gold on Improvements on Costal Marine and Navigable River.</Text>
+			<Text>Increased Gold on Improvements on Navigable River Tiles.</Text>
 		</Row>
 		<Row Tag="LOC_BYEOKRANDO_MOD_ADJUST_GREAT_WORK_SLOTS_DESCRIPTION">
 			<Text>Every Janggyeongjeon gains one more Great Work Slot.</Text>
@@ -84,7 +84,7 @@
 			<Text>Goryeo Cheongja</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EX_GORYEO_CHEONGJA_DESCRIPTION">
-			<Text>+10 Sea Trade Route Range.</Text>
+			<Text>Increased Gold on Improvements on Costal Marine Tiles.</Text>
 		</Row>
 
 </EnglishText>

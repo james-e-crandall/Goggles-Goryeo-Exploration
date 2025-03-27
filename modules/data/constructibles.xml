@@ -25,10 +25,10 @@
 	</Wonders>
 	<TypeTags>
 		<!-- Civ Unique Buildings -->
-		<Row Type="BUILDING_SEOKTAP" Tag="HAPPINESS"/>
+		<Row Type="BUILDING_SEOKTAP" Tag="CULTURE"/>
 		<Row Type="BUILDING_SEOKTAP" Tag="UNIQUE"/>
 		<Row Type="BUILDING_SEOKTAP" Tag="AGELESS"/>
-		<Row Type="BUILDING_JANGGYEONGJEON" Tag="SCIENCE"/>
+		<Row Type="BUILDING_JANGGYEONGJEON" Tag="HAPPINESS"/>
 		<Row Type="BUILDING_JANGGYEONGJEON" Tag="UNIQUE"/>
 		<Row Type="BUILDING_JANGGYEONGJEON" Tag="AGELESS"/>
 		<!-- Civ Unique Improvements -->
@@ -103,7 +103,6 @@
 	<Warehouse_YieldChanges>
 		<Row ID="ByeokrandoMarineGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" BiomeInCity="BIOME_MARINE"/>
 		<Row ID="ByeokrandoNavigableRiverGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" NavigableRiverInCity="true"/>
-		<Row ID="ByeokrandoMinorRiverGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" MinorRiverInCity="true"/>
  	</Warehouse_YieldChanges>
 
 	<Constructible_WildcardAdjacencies>
@@ -119,6 +118,7 @@
 		
 	</Constructible_Plunders>
 	<ConstructibleModifiers>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" ModifierId="JANGGYEONGJEON_MOD_GREAT_WORK_CULTURE"/>
 	</ConstructibleModifiers>
 	<UniqueQuarters>
 		<Row UniqueQuarterType="QUARTER_DAESACHAL" BuildingType1="BUILDING_SEOKTAP" BuildingType2="BUILDING_JANGGYEONGJEON" Name="LOC_QUARTER_DAESACHAL_NAME" Description="LOC_QUARTER_DAESACHAL_DESCRIPTION" Tooltip="LOC_QUARTER_DAESACHAL_TOOLTIP" TraitType="TRAIT_GORYEO"/>

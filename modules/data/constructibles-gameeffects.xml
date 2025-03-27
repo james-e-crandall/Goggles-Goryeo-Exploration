@@ -2,13 +2,21 @@
 <GameEffects xmlns="GameEffects">
 
 	<!-- Goryeo -->
+	<Modifier id="JANGGYEONGJEON_MOD_GREAT_WORK_CULTURE" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_GREAT_WORK">
+		<Argument name="YieldType">YIELD_HAPPINESS</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_BUILDING_JANGGYEONGJEON_NAME</Argument>
+		<String context="Description">LOC_BUILDING_JANGGYEONGJEON_DESCRIPTION</String>
+	</Modifier>
+
+
 	<Modifier id="QUARTER_DAESACHAL_MOD_CITY_FOLLOWS_RELIGION_GOLD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD">
 		<SubjectRequirements>
 			<Requirement type="REQUIREMENT_CITY_FOLLOWS_RELIGION"/>
 			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_CULTURE</Argument>
-		<Argument name="Percent">1000</Argument>
+		<Argument name="Percent">10</Argument>
 		<Argument name="Tooltip">LOC_QUARTER_DAESACHAL_NAME</Argument>
 		<String context="Description">LOC_QUARTER_DAESACHAL_DESCRIPTION</String>
 	</Modifier>

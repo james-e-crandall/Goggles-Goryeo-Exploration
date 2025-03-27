@@ -81,9 +81,13 @@
 		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO21"/>
 		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO22"/>
 	</CityNames>
+
 	<StartBiasTerrains>
 		<Row CivilizationType="CIVILIZATION_GORYEO" TerrainType="TERRAIN_NAVIGABLE_RIVER" Score="20"/>
 	</StartBiasTerrains>
+	<StartBiasAdjacentToCoasts>
+			<Row CivilizationType="CIVILIZATION_GORYEO" Score="150"/>
+	</StartBiasAdjacentToCoasts>
 
 	<VisArt_CivilizationBuildingCultures>
 		<Row CivilizationType="CIVILIZATION_GORYEO" BuildingCulture="BUILDING_CULTURE_EAS"/>
