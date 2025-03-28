@@ -2,6 +2,11 @@
 <Mod id="goggles_civ_goryeo" version="1"
 	xmlns="ModInfo">
 
+<!-- 
+Based on with permission:
+https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanics.691486/post-16749973
+ -->
+
 	<Properties>
 		<Name>LOC_MODULE_GORYEO_NAME</Name>
 		<Description>LOC_MODULE_GORYEO_DESCRIPTION</Description>
