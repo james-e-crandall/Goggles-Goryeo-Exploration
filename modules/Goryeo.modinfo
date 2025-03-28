@@ -122,7 +122,7 @@
 				<UpdateDatabase>
 					<Item>data/constructibles.xml</Item>
 					<Item>data/constructibles-gameeffects.xml</Item>
-					<Item>data/constructibles-exploration.xml</Item>
+					
 				</UpdateDatabase>
                 <ImportFiles>
 
@@ -152,6 +152,7 @@
 					<Item>data/progression-trees-culture-unique-gameeffects.xml</Item>
 					<Item>data/units.xml</Item>
 					<Item>data/units-gameeffects.xml</Item>
+					<Item>data/constructibles-exploration.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+
+	<Modifier id="MOD_WONDER_MANWOLDAE_GRANT_WAREHOUSE_YIELD" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
+		<Argument name="WarehouseYieldChange">ManwoldaeMarineGold</Argument>
+		<String context="Description">LOC_WONDER_MANWOLDAE_DESCRIPTION</String>
+	</Modifier>
+
+</GameEffects>

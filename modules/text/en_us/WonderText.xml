@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_WONDER_MANWOLDAE_NAME">
+			<Text>Manwŏldae</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_MANWOLDAE_DESCRIPTION">
+			<Text>+4[icon:YIELD_FOOD] Food. {LOC_WONDER_MANWOLDAE_TOOLTIP}</Text>
+		</Row>
+		<Row Tag="LOC_WONDER_MANWOLDAE_TOOLTIP">
+			<Text>Increased Gold on Improvements on Costal Marine Tiles. Ageless. Must be placed on Rough Terrain.</Text>
+		</Row>
+		<Row Tag="LOC_QUOTE_WONDER_MANWOLDAE">
+			<Text>Full Moon Platform.</Text>
+		</Row>
+		<Row Tag="LOC_QUOTE_AUTHOR_WONDER_MANWOLDAE">
+			<Text>To Do</Text>
+		</Row>
+
+    </EnglishText>
+</Database>

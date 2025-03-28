@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Wonders -->
+		<Row Type="WONDER_MANWOLDAE" Kind="KIND_CONSTRUCTIBLE"/>
+    </Types>
+	<Traits>
+	</Traits>
+	<TypeQuotes>
+		<!-- Wonders -->
+		<Row Type="WONDER_MANWOLDAE" Quote="LOC_QUOTE_WONDER_MANWOLDAE" QuoteAuthor="LOC_QUOTE_AUTHOR_WONDER_MANWOLDAE" QuoteAudio="VO_Quote_Manwoldae"/>
+    </TypeQuotes>
+	<Constructibles>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_MANWOLDAE" Name="LOC_WONDER_MANWOLDAE_NAME" Description="LOC_WONDER_MANWOLDAE_DESCRIPTION" Tooltip="LOC_WONDER_MANWOLDAE_TOOLTIP" ConstructibleClass="WONDER" Cost="475" Population="0" ImmuneDamage="true" Age="AGE_EXPLORATION" AdjacentDistrict="DISTRICT_URBAN" RequiresUnlock="true" />
+    </Constructibles>
+    <Wonders>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_MANWOLDAE" MaxWorldInstances="1"  />    
+	</Wonders>
+	<Constructible_ValidTerrains>
+		<Row ConstructibleType="WONDER_MANWOLDAE" TerrainType="TERRAIN_HILL"/>
+	</Constructible_ValidTerrains>
+
+	<Constructible_ValidDistricts>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_MANWOLDAE" DistrictType="DISTRICT_WONDER"/>
+    </Constructible_ValidDistricts>
+	<Constructible_YieldChanges>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_MANWOLDAE" YieldType="YIELD_FOOD" YieldChange="4"/>
+    </Constructible_YieldChanges>
+	<ConstructibleModifiers>
+		<!-- Wonders -->
+		<Row ConstructibleType="WONDER_MANWOLDAE" ModifierId="MOD_WONDER_MANWOLDAE_GRANT_WAREHOUSE_YIELD"/>
+    </ConstructibleModifiers>
+    <Constructible_Advisories>
+		<Row ConstructibleType="WONDER_MANWOLDAE" AdvisoryClassType="ADVISORY_CLASS_FOOD"/>
+    </Constructible_Advisories>
+</Database>
