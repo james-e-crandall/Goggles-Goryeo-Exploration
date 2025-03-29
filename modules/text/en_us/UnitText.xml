@@ -22,7 +22,7 @@
 			<Text>Eungsa</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_EUNGSA_DESCRIPTION">
-			<Text>Goryeo Unique Scout Unit.</Text>
+			<Text>Goryeo Unique Scout Unit.  Increase Sight Range.</Text>
 		</Row>
 
 		<!-- Unit Abilities -->

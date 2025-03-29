@@ -17,9 +17,9 @@
 		<Row ProgressionTreeType="TREE_CIVICS_EX_GORYEO" AgeType="AGE_ANTIQUITY" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_EX_GORYEO_NAME"/>
 	</ProgressionTrees>
 	<ProgressionTreeNodes>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_HOJOK" ProgressionTree="TREE_CIVICS_EX_GORYEO" Cost="150" Name="LOC_CIVIC_EX_GORYEO_HOJOK_NAME" IconString="cult_goryeo" />
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" ProgressionTree="TREE_CIVICS_EX_GORYEO" Cost="250" Name="LOC_CIVIC_EX_GORYEO_PATRIOTIC_WAR_NAME" IconString="cult_goryeo" />
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_BYEOKRANDO" ProgressionTree="TREE_CIVICS_EX_GORYEO" Cost="250" Name="LOC_CIVIC_EX_GORYEO_BYEOKRANDO_NAME" IconString="cult_goryeo" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_HOJOK" ProgressionTree="TREE_CIVICS_EX_GORYEO" Cost="800" Name="LOC_CIVIC_EX_GORYEO_HOJOK_NAME" IconString="cult_goryeo" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" ProgressionTree="TREE_CIVICS_EX_GORYEO" Cost="1200" Name="LOC_CIVIC_EX_GORYEO_PATRIOTIC_WAR_NAME" IconString="cult_goryeo" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_BYEOKRANDO" ProgressionTree="TREE_CIVICS_EX_GORYEO" Cost="2000" Name="LOC_CIVIC_EX_GORYEO_BYEOKRANDO_NAME" IconString="cult_goryeo" />
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<!-- HOJOK -->

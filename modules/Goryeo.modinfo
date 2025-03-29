@@ -160,8 +160,10 @@ https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanic
 					<Item>data/constructibles-exploration.xml</Item>
 				</UpdateDatabase>
 				<UpdateText>
-
 				</UpdateText>
+                <UpdateVisualRemaps>
+                    <Item>data/visual-remap.xml</Item>
+                </UpdateVisualRemaps>
 			</Actions>
 		</ActionGroup>
 		

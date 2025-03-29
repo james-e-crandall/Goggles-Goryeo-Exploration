@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Database>
+    <VisualRemaps>
+    <!-- subei -->
+        <Row>
+            <ID>REMAP_UNIT_BYEOLMUBAN</ID>
+            <DisplayName>LOC_UNIT_BYEOLMUBAN_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_BYEOLMUBAN</From>
+            <To>UNIT_COURSER</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_BYEOLMUBAN_2</ID>
+            <DisplayName>LOC_UNIT_BYEOLMUBAN_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_BYEOLMUBAN_2</From>
+            <To>UNIT_KNIGHT</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_BYEOLMUBAN_3</ID>
+            <DisplayName>LOC_UNIT_BYEOLMUBAN_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_BYEOLMUBAN_3</From>
+            <To>UNIT_LANCER</To>
+        </Row>
+        <Row>
+            <ID>REMAP_UNIT_EUNGSA</ID>
+            <DisplayName>LOC_UNIT_EUNGSA_NAME</DisplayName>
+            <Kind>UNIT</Kind>
+            <From>UNIT_EUNGSA</From>
+            <To>UNIT_CHASQUI</To>
+        </Row>
+        
+    </VisualRemaps>
+</Database>
+<!-- generated with https://github.com/izica/civ7-modding-tools -->
