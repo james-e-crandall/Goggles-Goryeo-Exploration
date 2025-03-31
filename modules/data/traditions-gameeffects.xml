@@ -17,6 +17,17 @@
 		<Argument name="Tooltip">LOC_TRADITION_EX_GORYEO_TRIPITAKA_KOREANA_NAME</Argument>
 		<String context="Description">LOC_TRADITION_EX_GORYEO_TRIPITAKA_KOREANA_DESCRIPTION</String>
 	</Modifier>
+	<Modifier id="TRADITION_EX_GORYEO_TRIPITAKA_KOREANA_GREAT_WORK_DIPLOMACY_DISTANT_LANDS" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_ADJUST_YIELD_PER_GREAT_WORK">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_CITY"/>
+			<Requirement type="REQUIREMENT_CITY_IS_DISTANT_LANDS" inverse="true"/>
+		</SubjectRequirements>
+		<Argument name="YieldType">YIELD_DIPLOMACY</Argument>
+		<Argument name="Amount">1</Argument>
+		<Argument name="Tooltip">LOC_TRADITION_EX_GORYEO_TRIPITAKA_KOREANA_NAME</Argument>
+	</Modifier>
+
+
 	<!-- TRADITION_EX_GORYEO_CHEONGJA -->
 	<Modifier id="TRADITION_EX_GORYEO_CHEONGJA_GRANT_WAREHOUSE_YIELD" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
 		<Argument name="WarehouseYieldChange">ByeokrandoMarineGold</Argument>

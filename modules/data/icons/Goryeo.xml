@@ -17,17 +17,33 @@
             <Context>DEFAULT</Context>
         </Row>
         <Row>
+            <ID>ICON_BUILDING_SEOKTAP</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/buildicon_seoktap.png</Path>
+        </Row>
+        <Row>
             <ID>BUILDING_JANGGYEONGJEON</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/buildicon_janggyeongjeon.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-
+        <Row>
+            <ID>ICON_BUILDING_JANGGYEONGJEON</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/buildicon_janggyeongjeon.png</Path>
+        </Row>
         <Row>
             <ID>UNIT_BYEOLMUBAN</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban.png</Path>
             <Context>DEFAULT</Context>
         </Row>
-
+        <Row>
+            <ID>UNIT_BYEOLMUBAN_2</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
+        <Row>
+            <ID>UNIT_BYEOLMUBAN_3</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban.png</Path>
+            <Context>DEFAULT</Context>
+        </Row>
         <Row>
             <ID>UNIT_EUNGSA</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/unitflag_eungsa.png</Path>

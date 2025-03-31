@@ -93,7 +93,7 @@
 		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="WonderHappiness"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
-		<Row ID="SeoktapCoastCulture" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentTerrain="TERRAIN_COAST"/>
+		<Row ID="SeoktapCoastCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_COAST"/>
 	</Adjacency_YieldChanges>
 
 	<Constructible_WarehouseYields>
@@ -101,7 +101,7 @@
 	</Constructible_WarehouseYields>
 
 	<Warehouse_YieldChanges>
-		<Row ID="ByeokrandoMarineGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" BiomeInCity="BIOME_MARINE"/>
+		<Row ID="ManwoldaeMarineGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" BiomeInCity="BIOME_MARINE"/>
 		<Row ID="ByeokrandoNavigableRiverGold" Age="AGE_EXPLORATION" YieldType="YIELD_GOLD" YieldChange="1" NavigableRiverInCity="true"/>
  	</Warehouse_YieldChanges>
 
@@ -125,11 +125,13 @@
 	</UniqueQuarters>
 	<GameModifiers>
 		<!-- Unique Quarter modifiers are game-wide -->
-		<Row ModifierId="QUARTER_DAESACHAL_MOD_CITY_FOLLOWS_RELIGION_GOLD"/>
+		<Row ModifierId="QUARTER_DAESACHAL_MOD_CITY_INFLUENCE"/>
+		<Row ModifierId="QUARTER_DAESACHAL_MOD_CITY_INFLUENCE_DISTANT_LANDS"/>
 	</GameModifiers>
 	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
 	<UniqueQuarterModifiers>
-		<Row UniqueQuarterType="QUARTER_DAESACHAL" ModifierId="QUARTER_DAESACHAL_MOD_CITY_FOLLOWS_RELIGION_GOLD"/>
+		<Row UniqueQuarterType="QUARTER_DAESACHAL" ModifierId="QUARTER_DAESACHAL_MOD_CITY_INFLUENCE"/>
+		<Row UniqueQuarterType="QUARTER_DAESACHAL" ModifierId="QUARTER_DAESACHAL_MOD_CITY_INFLUENCE_DISTANT_LANDS"/>
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
 		<!-- Antique Revived Buildings -->

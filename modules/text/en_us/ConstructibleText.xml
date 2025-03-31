@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
 <Database>
 	<EnglishText>
 		<!-- Civ Unique Improvements -->
@@ -27,7 +26,7 @@
 			<Text>Daesachal</Text>
 		</Row>
 		<Row Tag="LOC_QUARTER_DAESACHAL_DESCRIPTION">
-			<Text>Daesachal: Unique Quarter. Grants Happiness for every Great Work it has.</Text>
+			<Text>Daesachal: Unique Quarter. +4 Influence.  +25% Influence in city if in distant lands.</Text>
 		</Row>
 	</EnglishText>
 </Database>

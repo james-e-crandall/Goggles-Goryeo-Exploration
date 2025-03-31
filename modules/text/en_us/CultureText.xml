@@ -55,7 +55,7 @@
 			<Text>Tripitaka Koreana</Text>
 		</Row>
 		<Row Tag="LOC_TRADITION_EX_GORYEO_TRIPITAKA_KOREANA_DESCRIPTION">
-			<Text>+1 Influence per Great Works.</Text>
+			<Text>+1 Influence per Great Works. Additional +1 if in city in Distant Lands.</Text>
 		</Row>
 		
 		<!-- Byeokrando BYEOKRANDO -->
