@@ -69,7 +69,7 @@
 
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_SEOKTAP" YieldType="YIELD_CULTURE" YieldChange="3"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldType="YIELD_HAPPINESS" YieldChange="1"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
 		
 		<!-- Civ Unique Improvements -->
 
@@ -91,9 +91,11 @@
 		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="MountainHappiness"/>
 		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="NaturalWonderHappiness"/>
 		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="WonderHappiness"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="JanggyeongjeonRiverHappiness"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 		<Row ID="SeoktapCoastCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_COAST"/>
+		<Row ID="JanggyeongjeonRiverHappiness" YieldType="YIELD_HAPPINESS" YieldChange="1" TilesRequired="1" AdjacentNavigableRiver="true"/>
 	</Adjacency_YieldChanges>
 
 	<Constructible_WarehouseYields>
@@ -114,7 +116,7 @@
 	<Constructible_Plunders>
 		<!-- Civ Unique Buildings -->
 		<Row ConstructibleType="BUILDING_SEOKTAP" PlunderType="PLUNDER_CULTURE" Amount="80"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" PlunderType="PLUNDER_CULTURE" Amount="80"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" PlunderType="PLUNDER_GOLD" Amount="80"/>
 		
 	</Constructible_Plunders>
 	<ConstructibleModifiers>

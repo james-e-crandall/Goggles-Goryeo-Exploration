@@ -16,7 +16,7 @@
 			<Text>Janggyeongjeon</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_JANGGYEONGJEON_DESCRIPTION">
-			<Text>Unique Happiness Building. Grants a Great Work Slot. </Text>
+			<Text>Unique Happiness Building. Grants a Great Work Slot. Additional Culture for each Adjacent Navigable River Tile. </Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_JANGGYEONGJEON_TOOLTIP">
 			<Text>Janggyeongjeon Unique Happiness Building. Ageless.</Text>

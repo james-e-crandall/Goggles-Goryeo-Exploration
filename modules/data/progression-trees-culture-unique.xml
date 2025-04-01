@@ -23,6 +23,7 @@
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<!-- HOJOK -->
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_HOJOK" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_MANWOLDAE" UnlockDepth="1"  />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_HOJOK" TargetKind="KIND_MODIFIER" TargetType="HOJOK_MOD_GOLD_TOWNS" UnlockDepth="1" />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_HOJOK" TargetKind="KIND_MODIFIER" TargetType="HOJOK_MOD_HAPPINESS_TOWNS" UnlockDepth="1" />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_HOJOK" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_SEOKTAP" UnlockDepth="2"  />

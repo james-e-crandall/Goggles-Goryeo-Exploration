@@ -127,7 +127,8 @@ https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanic
 				<UpdateDatabase>
 					<Item>data/constructibles.xml</Item>
 					<Item>data/constructibles-gameeffects.xml</Item>
-					
+					<Item>data/wonders.xml</Item>
+					<Item>data/wonders-gameeffects.xml</Item>
 				</UpdateDatabase>
                 <ImportFiles>
 
@@ -138,6 +139,7 @@ https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanic
 				<UpdateText>
 					<Item>text/en_us/CityNamesText.xml</Item>
 					<Item>text/en_us/ConstructibleText.xml</Item>
+					<Item>text/en_us/WonderText.xml</Item>
 				</UpdateText>
 			</Actions>
 		</ActionGroup>

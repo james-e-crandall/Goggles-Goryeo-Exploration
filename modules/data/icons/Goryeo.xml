@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Database>
     <IconDefinitions>
+        <!-- civilization -->
         <Row>
             <ID>CIVILIZATION_GORYEO</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo</Path>
             <Context>DEFAULT</Context>
         </Row>
+        
         <Row>
             <ID>cult_goryeo</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/cult_goryeo.png</Path>
         </Row>
-
+		<Row>
+			<ID>CIVILIZATION_GORYEO</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/goggles_civ_goryeo/icons/lsbg_goryeo_1080</Path>
+			<IconSize>1080</IconSize>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_GORYEO</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/goggles_civ_goryeo/icons/lsbg_goryeo_720</Path>
+			<IconSize>720</IconSize>
+		</Row>
+        <!-- constructables -->
+		<Row>
+			<ID>WONDER_MANWOLDAE</ID>
+			<Path>fs://game/goggles_civ_goryeo/icons/wondericon_manwoldae.png</Path>
+		</Row>
         <Row>
             <ID>BUILDING_SEOKTAP</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/buildicon_seoktap.png</Path>
@@ -29,6 +47,7 @@
             <ID>ICON_BUILDING_JANGGYEONGJEON</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/buildicon_janggyeongjeon.png</Path>
         </Row>
+        <!-- units -->
         <Row>
             <ID>UNIT_BYEOLMUBAN</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban.png</Path>

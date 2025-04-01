@@ -2,10 +2,10 @@
 <Database>
 	<EnglishText>
 		<Row Tag="LOC_WONDER_MANWOLDAE_NAME">
-			<Text>Manwŏldae</Text>
+			<Text>Manwŏldae Palace</Text>
 		</Row>
 		<Row Tag="LOC_WONDER_MANWOLDAE_DESCRIPTION">
-			<Text>+4[icon:YIELD_FOOD] Food. {LOC_WONDER_MANWOLDAE_TOOLTIP}</Text>
+			<Text>{LOC_WONDER_MANWOLDAE_TOOLTIP}</Text>
 		</Row>
 		<Row Tag="LOC_WONDER_MANWOLDAE_TOOLTIP">
 			<Text>Increased Gold on Improvements on Costal Marine Tiles. Ageless. Must be placed on Rough Terrain.</Text>
