@@ -64,12 +64,12 @@
         </Row>
         <Row>
             <ID>UNIT_BYEOLMUBAN_2</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban.png</Path>
+            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban_2.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
             <ID>UNIT_BYEOLMUBAN_3</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban.png</Path>
+            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban_3.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
