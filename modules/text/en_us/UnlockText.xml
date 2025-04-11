@@ -25,8 +25,25 @@
 		</Row>
 		
 		<Row Tag="LOC_UNLOCK_PLAY_AS_KHMER_GORYEO_TOOLTIP">
-			<Text>The [B]Goryeo [/B] is from the same continent as [B]Khmer [/b].</Text>
+			<Text>The [B]Goryeo [/B] is from the same region as [B]Khmer [/b].</Text>
 		</Row>
+
+		<Row Tag="LOC_UNLOCK_PLAY_AS_HAN_GORYEO_TOOLTIP">
+			<Text>The [B]Goryeo [/B] is from the same region as [B]Han [/b].</Text>
+		</Row>
+
+		<InsertOrIgnore Tag="LOC_UNLOCK_2_SEA_DESCRIPTION">
+			<Text>Improve 2 [B]Fish Resources[/B].</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_UNLOCK_2_SEA_TOOLTIP">
+			<Text>[B]Fish Resouces[/B] were an important commodity to the [B]Goryeo[/B].</Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_UNLOCK_2_SEA_NARRATIVE">
+			<Text>The farmers and fishers of the Sea begin work at dawn. Later the markets are fill with the Fish Resouces have become vital to the {1_Civilization_Adj} economy... as have their procurers. </Text>
+		</InsertOrIgnore>
+		<InsertOrIgnore Tag="LOC_UNLOCK_2_SEA_UNLOCK">
+			<Text>You have unlocked Geryeo by improving 3 Fish Resources.</Text>
+		</InsertOrIgnore>
 
 	</EnglishText>
 </Database>

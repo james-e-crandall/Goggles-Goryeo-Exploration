@@ -21,7 +21,7 @@
 			<Text>Decreased Happiness from Towns.</Text>
 		</Row>
 		<Row Tag="LOC_HOJOK_MOD_ADJUST_SETTLEMENT_CAP_DESCRIPTION">
-			<Text>Increased Settlement Limit..</Text>
+			<Text>Increased Settlement Limit.</Text>
 		</Row>
 
 		<!-- Tradtion -->
@@ -38,7 +38,7 @@
 		</Row>
 
 		<Row Tag="LOC_PATRIOTIC_WAR_MOD_GRANT_UNIT_PROMOTION_DESCRIPTION">
-			<Text>Commanders gain the Shock Tactics promotion.</Text>
+			<Text>Commanders gain the Bulwark and Defilade promotions.</Text>
 		</Row>
 
 		<!-- Tradtion -->

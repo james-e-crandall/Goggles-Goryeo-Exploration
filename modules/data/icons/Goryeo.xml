@@ -3,14 +3,14 @@
     <IconDefinitions>
         <!-- civilization -->
         <Row>
-            <ID>CIVILIZATION_GORYEO</ID>
+            <ID>ICON_GORYEO</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo</Path>
             <Context>DEFAULT</Context>
         </Row>
-        
         <Row>
-            <ID>cult_goryeo</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/cult_goryeo.png</Path>
+            <ID>CIVILIZATION_GORYEO</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo</Path>
+            <Context>DEFAULT</Context>
         </Row>
 		<Row>
 			<ID>CIVILIZATION_GORYEO</ID>
@@ -24,6 +24,15 @@
 			<Path>fs://game/goggles_civ_goryeo/icons/lsbg_goryeo_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
+        <Row>
+            <ID>civ_line_goryeo</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/civ_line_goryeo.png</Path>
+        </Row>
+        <!-- Culture Tree -->
+        <Row>
+            <ID>cult_goryeo</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/cult_goryeo.png</Path>
+        </Row>
         <!-- constructables -->
 		<Row>
 			<ID>WONDER_MANWOLDAE</ID>

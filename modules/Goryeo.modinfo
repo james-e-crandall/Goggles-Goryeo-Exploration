@@ -106,18 +106,17 @@ https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanic
                 </ScenarioScripts>
             </Actions>
         </ActionGroup>
-		<ActionGroup id="age-antiquity-main-goryeo" scope="game" criteria="antiquity-age-current">
+		<ActionGroup id="age-exploration-current-goryeo" scope="game" criteria="antiquity-age-current">
+			<Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
 			<Actions>
-				<UpdateArt>
-					<Item>bulgaria</Item>
-				</UpdateArt>
-				<UpdateDatabase>
+                <UpdateDatabase>
 					<Item>data/unlocks-antiquity.xml</Item>
-				</UpdateDatabase>
+                </UpdateDatabase>
 			</Actions>
 		</ActionGroup>
-
-		<ActionGroup id="age-antiquity-persist-goryeo" scope="game" criteria="exploration-age-persist">
+		<ActionGroup id="age-exploration-persist-goryeo" scope="game" criteria="exploration-age-persist">
 			<Properties>
 				<LoadOrder>100</LoadOrder>
 			</Properties>
@@ -143,7 +142,7 @@ https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanic
 				</UpdateText>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="age-exploration-main-goryeo" scope="game" criteria="exploration-age-current">
+		<ActionGroup id="age-exploration-current-goryeo" scope="game" criteria="exploration-age-current">
 			<Properties>
 				<LoadOrder>100</LoadOrder>
 			</Properties>

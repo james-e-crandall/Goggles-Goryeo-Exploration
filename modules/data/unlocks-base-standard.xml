@@ -14,21 +14,29 @@
 	</UnlockRewards>
 	<RequirementSets>
 		<Row RequirementSetId="REQSET_CIV_IS_GORYEO" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+		<InsertOrIgnore RequirementSetId="REQSET_PLAYER_HAS_2_SEA_IMPROVED" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
 	</RequirementSets>
 	<Requirements>
 		<Row RequirementId="REQ_CIV_IS_GORYEO" RequirementType="REQUIREMENT_PLAYER_CIVILIZATION_TYPE_MATCHES"/>
+		<Row RequirementId="REQ_PLAYER_HAS_2_SEA_IMPROVED" RequirementType="REQUIREMENT_PLAYER_TOTAL_IMPROVED_RESOURCES"/>
 	</Requirements>
 	<RequirementArguments>
 		<Row RequirementId="REQ_CIV_IS_GORYEO" Name="CivilizationType" Value="CIVILIZATION_GORYEO"/>
+		<!-- <Row RequirementId="REQSET_PLAYER_HAS_2_SEA_IMPROVED" Name="ResourceType" Value="RESOURCE_FISH"/> -->
+		<Row RequirementId="REQ_PLAYER_HAS_2_SEA_IMPROVED" Name="ResourceType" Value="RESOURCE_FISH"/>
+		<Row RequirementId="REQ_PLAYER_HAS_2_SEA_IMPROVED" Name="Amount" Value="2"/>
 	</RequirementArguments>
 	<RequirementSetRequirements>
 		<Row RequirementSetId="REQSET_CIV_IS_GORYEO" RequirementId="REQ_CIV_IS_GORYEO"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_2_SEA_IMPROVED" RequirementId="REQ_PLAYER_HAS_2_SEA_IMPROVED"/>
+		<Row RequirementSetId="REQSET_PLAYER_HAS_2_SEA_IMPROVED" RequirementId="REQ_AGE_IS_ANTIQUITY"/>
 	</RequirementSetRequirements>
 	<UnlockRequirements>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO" RequirementSetId="REQSET_PLAYER_HAS_2_SEA_IMPROVED" Description="LOC_UNLOCK_2_SEA_DESCRIPTION" Tooltip="LOC_UNLOCK_2_SEA_TOOLTIP"/>
+	
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO" RequirementSetId="REQSET_LEADER_IS_CONFUCIUS" Description="LOC_UNLOCK_PLAY_AS_CONFUCIUS_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_CONFUCIUS_TOOLTIP"/>
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO" RequirementSetId="REQSET_LEADER_IS_HIMIKO" Description="LOC_UNLOCK_PLAY_AS_HIMIKO_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_HIMIKO_TOOLTIP"/>
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO" RequirementSetId="REQSET_LEADER_IS_TRUNG_TRAC" Description="LOC_UNLOCK_PLAY_AS_TRUNG_TRAC_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_TRUNG_TRAC_TOOLTIP"/>
-	
 	</UnlockRequirements>
 	<UnlockConfigurationValues>
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO" ConfigurationValue="CIVILIZATION_GORYEO"/>

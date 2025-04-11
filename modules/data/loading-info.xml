@@ -4,7 +4,7 @@
 
 	</LoadingInfo_Ages>
 	<LoadingInfo_Civilizations>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_GORYEO" Audio="VO_Loading_GORYEO" Subtitle="LOC_LOADING_INTRO_GORYEO" BackgroundImageHigh="fs://game/civ_goryeo/icons/lsbg_goryeo_1080" BackgroundImageLow="fs://game/civ_goryeo/icons/lsbg_goryeo_720" ForegroundImage="fs://game/civ_line_goryeo.png" />
+		<Row CivilizationType="CIVILIZATION_GORYEO" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_GORYEO" Audio="VO_Loading_GORYEO" Subtitle="LOC_LOADING_INTRO_GORYEO" BackgroundImageHigh="fs://game/civ_goryeo/icons/lsbg_goryeo_1080" BackgroundImageLow="fs://game/civ_goryeo/icons/lsbg_goryeo_720" ForegroundImage="fs://civ_goryeo/icons/civ_line_goryeo.png" />
 	</LoadingInfo_Civilizations>
 
 </Database>

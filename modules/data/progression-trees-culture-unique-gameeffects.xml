@@ -38,11 +38,19 @@
 				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
 			</Requirement>
 		</SubjectRequirements>
-		<Argument name="UnitPromotionType">PROMOTION_ARMY_SHOCK_TACTICS</Argument>
-		<Argument name="UnitPromotionDisciplineType">DISCIPLINE_ARMY_ASSAULT</Argument>
+		<Argument name="UnitPromotionType">PROMOTION_ARMY_BULWARK</Argument>
+		<Argument name="UnitPromotionDisciplineType">DISCIPLINE_ARMY_BASTION</Argument>
 		<String context="Description">LOC_PATRIOTIC_WAR_MOD_GRANT_UNIT_PROMOTION_DESCRIPTION</String>
 	</Modifier>
-
+	<Modifier id="PATRIOTIC_WAR_MOD_GRANT_UNIT_PROMOTION_2" collection="COLLECTION_PLAYER_UNITS" effect="EFFECT_GRANT_UNIT_PROMOTION">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_UNIT_TAG_MATCHES">
+				<Argument name="Tag">UNIT_CLASS_COMMAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="UnitPromotionType">PROMOTION_ARMY_DEFILADE</Argument>
+		<Argument name="UnitPromotionDisciplineType">DISCIPLINE_ARMY_BASTION</Argument>
+	</Modifier>
 	<!-- NODE_CIVIC_EX_GORYEO_BYEOKRANDO -->
 	<!-- Tier 1: -->
 	<!-- works -->

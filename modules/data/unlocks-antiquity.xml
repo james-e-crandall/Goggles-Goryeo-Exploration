@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_UNLOCK"/>
+	</Kinds>
 	<Types>
 		<InsertOrIgnore Type="UNLOCK_CIVILIZATION_GORYEO" Kind="KIND_UNLOCK"/>
-
 	</Types>
 	<Unlocks>
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO"/>
-		
 	</Unlocks>
 	<UnlockRewards>
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO" Name="LOC_CIVILIZATION_GORYEO_NAME" Description="LOC_UNLOCK_ANTIQUITY_CIV_DESCRIPTION" Icon="CIVILIZATION_GORYEO" CivUnlock="true"/>
 
 	</UnlockRewards>
-	<UnlockRequirements>
-		<Row UnlockType="UNLOCK_CIVILIZATION_GORYEO" RequirementSetId="REQSET_CIV_IS_KHMER" Description="LOC_UNLOCK_PLAY_AS_KHMER_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_KHMER_GORYEO_TOOLTIP"/>
-	</UnlockRequirements>
 	<UnlockConfigurationValues>
 		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO" ConfigurationValue="CIVILIZATION_GORYEO"/>
 	</UnlockConfigurationValues>
+	<UnlockRequirements>
+		<Row UnlockType="UNLOCK_CIVILIZATION_GORYEO" RequirementSetId="REQSET_CIV_IS_KHMER" Description="LOC_UNLOCK_PLAY_AS_KHMER_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_KHMER_GORYEO_TOOLTIP"/>
+		<Row UnlockType="UNLOCK_CIVILIZATION_GORYEO" RequirementSetId="REQSET_CIV_IS_HAN" Description="LOC_UNLOCK_PLAY_AS_HAN_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_HAN_GORYEO_TOOLTIP"/>
+	</UnlockRequirements>
+
 </Database>

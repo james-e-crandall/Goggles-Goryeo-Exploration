@@ -7,7 +7,7 @@
 	</Types>
 	<LegacyCivilizations>
 		<!-- Full Civs -->
-		<Row CivilizationType="CIVILIZATION_GORYEO" Name="LOC_CIVILIZATION_GORYEO_NAME" FullName="LOC_CIVILIZATION_GORYEO_FULLNAME" Adjective="LOC_CIVILIZATION_GORYEO_ADJECTIVE" Age="AGE_ANTIQUITY"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO" Name="LOC_CIVILIZATION_GORYEO_NAME" FullName="LOC_CIVILIZATION_GORYEO_FULLNAME" Adjective="LOC_CIVILIZATION_GORYEO_ADJECTIVE" Age="AGE_EXPLORATION"/>
 	</LegacyCivilizations>
 	<LegacyCivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_GORYEO" TraitType="TRAIT_GORYEO"/>

@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Database>
     <VisualRemaps>
-    <!-- subei -->
+        <!-- buildings -->
+        <Row>
+            <ID>REMAP_BUILDING_SEOKTAP</ID>
+            <DisplayName>LOC_BUILDING_SEOKTAP_NAME</DisplayName>
+            <Kind>BUILDING</Kind>
+            <From>BUILDING_SEOKTAP</From>
+            <To>BUILDING_CANDI_BENTAR</To>
+        </Row>
+        <Row>
+            <ID>REMAP_BUILDING_JANGGYEONGJEON</ID>
+            <DisplayName>LOC_BUILDING_JANGGYEONGJEON_NAME</DisplayName>
+            <Kind>BUILDING</Kind>
+            <From>BUILDING_JANGGYEONGJEON</From>
+            <To>BUILDING_MERU</To>
+        </Row>
+        <!-- units -->
         <Row>
             <ID>REMAP_UNIT_BYEOLMUBAN</ID>
             <DisplayName>LOC_UNIT_BYEOLMUBAN_NAME</DisplayName>
