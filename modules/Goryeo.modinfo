@@ -44,6 +44,9 @@ https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanic
         <Criteria all="true" id="ged-ynamp-enable">
             <ModInUse>ged-ynamp</ModInUse>
         </Criteria>
+        <Criteria all="true" id="izica-unit-portrait-visual-remaps-enable">
+            <ModInUse>izica-unit-portrait-visual-remaps</ModInUse>
+        </Criteria>
 	</ActionCriteria>
 	<ActionGroups>
 		<!-- Optional compatability -->
@@ -66,6 +69,13 @@ https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanic
 					<Item>ashoka-himiko-alt/data/unlocks-exploration.xml</Item>
                 </UpdateDatabase>
             </Actions>
+		</ActionGroup>
+		<ActionGroup id="izica-unit-portrait-visual-remaps" scope="game" criteria="izica-unit-portrait-visual-remaps-enable">
+			<Actions>
+				<UIScripts>
+					<Item>ui/game.js</Item>
+				</UIScripts>
+			</Actions>
 		</ActionGroup>
 		<!-- goryeo -->
         <ActionGroup id="base-game-main-goryeo" scope="game" criteria="always">

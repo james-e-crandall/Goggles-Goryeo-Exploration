@@ -80,6 +80,17 @@
 		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO20"/>
 		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO21"/>
 		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO22"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO23"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO24"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO25"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO26"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO27"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO28"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO29"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO30"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO31"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO32"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO33"/>
 	</CityNames>
 
 	<StartBiasTerrains>
