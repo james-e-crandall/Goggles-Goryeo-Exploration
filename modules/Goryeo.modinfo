@@ -110,6 +110,8 @@ https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanic
 					<Item>icons/unitflag_eungsa.png</Item>
 					<Item>icons/lsbg_goryeo_720</Item>
 					<Item>icons/lsbg_goryeo_1080</Item>
+					<Item>icons/bg-panel-goryeo.png</Item>
+					<Item>icons/bg-card-goryeo.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/Goryeo.xml</Item>
@@ -204,6 +206,8 @@ https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanic
 					<Item>icons/unitflag_eungsa.png</Item>
 					<Item>icons/lsbg_goryeo_720</Item>
 					<Item>icons/lsbg_goryeo_1080</Item>
+					<Item>icons/bg-panel-goryeo.png</Item>
+					<Item>icons/bg-card-goryeo.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/Goryeo.xml</Item>

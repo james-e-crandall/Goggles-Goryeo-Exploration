@@ -3,7 +3,7 @@
     <IconDefinitions>
         <!-- civilization -->
         <Row>
-            <ID>ICON_GORYEO</ID>
+            <ID>ICON_CIVILIZATION_GORYEO</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo</Path>
             <Context>DEFAULT</Context>
         </Row>
@@ -27,6 +27,14 @@
         <Row>
             <ID>civ_line_goryeo</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/civ_line_goryeo.png</Path>
+        </Row>
+        <Row>
+            <ID>bg-panel-goryeo</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/bg-panel-goryeo</Path>
+        </Row>
+        <Row>
+            <ID>bg-card-swiss_confederacy</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/bg-card-goryeo</Path>
         </Row>
         <!-- Culture Tree -->
         <Row>
