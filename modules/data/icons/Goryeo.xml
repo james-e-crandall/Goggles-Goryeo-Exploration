@@ -33,7 +33,7 @@
             <Path>fs://game/goggles_civ_goryeo/icons/bg-panel-goryeo</Path>
         </Row>
         <Row>
-            <ID>bg-card-swiss_confederacy</ID>
+            <ID>bg-card-goryeo</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/bg-card-goryeo</Path>
         </Row>
         <!-- Culture Tree -->
