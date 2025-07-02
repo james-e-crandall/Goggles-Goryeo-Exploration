@@ -28,10 +28,10 @@
 		<!-- Goryeo -->
 		<Row ListType="Goryeo Constructibles Biases" Item="BUILDING_SEOKTAP_JEC" Value="200" />
 		<Row ListType="Goryeo Constructibles Biases" Item="BUILDING_JANGGYEONGJEON_JEC" Value="200" />
-		<Row ListType="Goryeo Unit Biases" Item="UNIT_BYEOLMUBAN" Value="50"/>
-		<Row ListType="Goryeo Unit Biases" Item="UNIT_BYEOLMUBAN_2" Value="50"/>
-		<Row ListType="Goryeo Unit Biases" Item="UNIT_BYEOLMUBAN_3" Value="50"/>
-		<Row ListType="Goryeo Unit Biases" Item="UNIT_EUNGSA" Value="50"/>
+		<Row ListType="Goryeo Unit Biases" Item="UNIT_BYEOLMUBAN_JEC" Value="50"/>
+		<Row ListType="Goryeo Unit Biases" Item="UNIT_BYEOLMUBAN_JEC_2" Value="50"/>
+		<Row ListType="Goryeo Unit Biases" Item="UNIT_BYEOLMUBAN_JEC_3" Value="50"/>
+		<Row ListType="Goryeo Unit Biases" Item="UNIT_EUNGSA_JEC" Value="50"/>
 	</AiFavoredItems>
 	<!-- City Strategies -->
 	<Strategies>

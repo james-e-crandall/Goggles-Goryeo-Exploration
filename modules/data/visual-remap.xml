@@ -18,31 +18,31 @@
         </Row>
         <!-- units -->
         <Row>
-            <ID>REMAP_UNIT_BYEOLMUBAN</ID>
-            <DisplayName>LOC_UNIT_BYEOLMUBAN_NAME</DisplayName>
+            <ID>REMAP_UNIT_BYEOLMUBAN_JEC</ID>
+            <DisplayName>LOC_UNIT_BYEOLMUBAN_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_BYEOLMUBAN</From>
+            <From>UNIT_BYEOLMUBAN_JEC</From>
             <To>UNIT_COURSER</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_BYEOLMUBAN_2</ID>
-            <DisplayName>LOC_UNIT_BYEOLMUBAN_NAME</DisplayName>
+            <ID>REMAP_UNIT_BYEOLMUBAN_JEC_2</ID>
+            <DisplayName>LOC_UNIT_BYEOLMUBAN_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_BYEOLMUBAN_2</From>
+            <From>UNIT_BYEOLMUBAN_JEC_2</From>
             <To>UNIT_KNIGHT</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_BYEOLMUBAN_3</ID>
-            <DisplayName>LOC_UNIT_BYEOLMUBAN_NAME</DisplayName>
+            <ID>REMAP_UNIT_BYEOLMUBAN_JEC_3</ID>
+            <DisplayName>LOC_UNIT_BYEOLMUBAN_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_BYEOLMUBAN_3</From>
+            <From>UNIT_BYEOLMUBAN_JEC_3</From>
             <To>UNIT_LANCER</To>
         </Row>
         <Row>
-            <ID>REMAP_UNIT_EUNGSA</ID>
-            <DisplayName>LOC_UNIT_EUNGSA_NAME</DisplayName>
+            <ID>REMAP_UNIT_EUNGSA_JEC</ID>
+            <DisplayName>LOC_UNIT_EUNGSA_JEC_NAME</DisplayName>
             <Kind>UNIT</Kind>
-            <From>UNIT_EUNGSA</From>
+            <From>UNIT_EUNGSA_JEC</From>
             <To>UNIT_CHASQUI</To>
         </Row>
         

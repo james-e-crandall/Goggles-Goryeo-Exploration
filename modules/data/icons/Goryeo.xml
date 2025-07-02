@@ -66,22 +66,22 @@
         </Row>
         <!-- units -->
         <Row>
-            <ID>UNIT_BYEOLMUBAN</ID>
+            <ID>UNIT_BYEOLMUBAN_JEC</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_BYEOLMUBAN_2</ID>
+            <ID>UNIT_BYEOLMUBAN_JEC_2</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban_jec_2.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_BYEOLMUBAN_3</ID>
+            <ID>UNIT_BYEOLMUBAN_JEC_3</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban_jec_3.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>UNIT_EUNGSA</ID>
+            <ID>UNIT_EUNGSA_JEC</ID>
             <Path>fs://game/goggles_civ_goryeo/icons/unitflag_eungsa_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>

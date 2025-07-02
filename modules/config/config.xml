@@ -27,8 +27,8 @@
 		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" Type="QUARTER_DAESACHAL" Kind="KIND_QUARTER" Name="LOC_QUARTER_DAESACHAL_NAME" Description="LOC_QUARTER_DAESACHAL_DESCRIPTION" Icon="city_uniquequarter"/>
 
 		<!-- Units -->
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" Type="UNIT_BYEOLMUBAN" Kind="KIND_UNIT" Name="LOC_UNIT_BYEOLMUBAN_NAME" Description="LOC_UNIT_BYEOLMUBAN_DESCRIPTION" Icon="ICON_UNIT_BYEOLMUBAN"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" Type="UNIT_EUNGSA" Kind="KIND_UNIT" Name="LOC_UNIT_EUNGSA_NAME" Description="LOC_UNIT_EUNGSA_DESCRIPTION" Icon="ICON_UNIT_EUNGSA"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" Type="UNIT_BYEOLMUBAN_JEC" Kind="KIND_UNIT" Name="LOC_UNIT_BYEOLMUBAN_JEC_NAME" Description="LOC_UNIT_BYEOLMUBAN_JEC_DESCRIPTION" Icon="ICON_UNIT_BYEOLMUBAN_JEC"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" Type="UNIT_EUNGSA_JEC" Kind="KIND_UNIT" Name="LOC_UNIT_EUNGSA_JEC_NAME" Description="LOC_UNIT_EUNGSA_JEC_DESCRIPTION" Icon="ICON_UNIT_EUNGSA_JEC"/>
 		
 	</CivilizationItems>
 	<CivilizationTags>

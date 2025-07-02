@@ -2,26 +2,26 @@
 <Database>
 	<EnglishText>
 		<!-- Units -->
-		<Row Tag="LOC_UNIT_BYEOLMUBAN_NAME">
+		<Row Tag="LOC_UNIT_BYEOLMUBAN_JEC_NAME">
 			<Text>Byeolmuban</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_BYEOLMUBAN_BASE_DESCRIPTION">
+		<Row Tag="LOC_UNIT_BYEOLMUBAN_JEC_BASE_DESCRIPTION">
 			<Text>Goryeo Unique Cavalry Unit. Increased Combat Strength against Cavalry Units.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_BYEOLMUBAN_DESCRIPTION">
+		<Row Tag="LOC_UNIT_BYEOLMUBAN_JEC_DESCRIPTION">
 			<Text>Goryeo Unique Cavalry Unit. Increased Combat Strength against Cavalry Units.</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_BYEOLMUBAN_2_DESCRIPTION">
+		<Row Tag="LOC_UNIT_BYEOLMUBAN_JEC_2_DESCRIPTION">
 			<Text>Tier 2 GoryeoUn ique Cavalry Unit. Increased Combat Strength against Cavalry Units.</Text>	
 		</Row>
-		<Row Tag="LOC_UNIT_BYEOLMUBAN_3_DESCRIPTION">
+		<Row Tag="LOC_UNIT_BYEOLMUBAN_JEC_3_DESCRIPTION">
 			<Text>Tier 3 Goryeo Unique Cavalry Unit. Increased Combat Strength against Cavalry Units.</Text>	
 		</Row>
 
-		<Row Tag="LOC_UNIT_EUNGSA_NAME">
+		<Row Tag="LOC_UNIT_EUNGSA_JEC_NAME">
 			<Text>Eungsa</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_EUNGSA_DESCRIPTION">
+		<Row Tag="LOC_UNIT_EUNGSA_JEC_DESCRIPTION">
 			<Text>Goryeo Unique Scout Unit.  Increase Sight Range.</Text>
 		</Row>
 
