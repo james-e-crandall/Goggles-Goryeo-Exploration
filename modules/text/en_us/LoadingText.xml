@@ -7,5 +7,9 @@
 		<Row Tag="LOC_LOADING_INTRO_GORYEO">
 			<Text>In the end, only three things matter: how much you loved, how gently you lived, and how gracefully you let go of things not meant for you.</Text>
 		</Row>
+
+		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_GORYEO_JEC">
+			<Text>Use your diplomatic abilites to make friends both at Home and in Distant Lands, and let your enemies beware the Byeolmuban.</Text>
+		</Row>
 	</EnglishText>
 </Database>
