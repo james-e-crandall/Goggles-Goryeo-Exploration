@@ -12,8 +12,8 @@
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<!--  -->
-		<Row ProgressionTreeNodeType="NODE_TECH_EX_HERALDRY" TargetKind="KIND_UNIT" TargetType="UNIT_BYEOLMUBAN_2" UnlockDepth="1" RequiredTraitType="TRAIT_GORYEO"/>
-		<Row ProgressionTreeNodeType="NODE_TECH_EX_METAL_CASTING" TargetKind="KIND_UNIT" TargetType="UNIT_BYEOLMUBAN_3" UnlockDepth="1" RequiredTraitType="TRAIT_GORYEO"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_HERALDRY" TargetKind="KIND_UNIT" TargetType="UNIT_BYEOLMUBAN_2" UnlockDepth="1" RequiredTraitType="TRAIT_GORYEO_JEC"/>
+		<Row ProgressionTreeNodeType="NODE_TECH_EX_METAL_CASTING" TargetKind="KIND_UNIT" TargetType="UNIT_BYEOLMUBAN_3" UnlockDepth="1" RequiredTraitType="TRAIT_GORYEO_JEC"/>
 
 	</ProgressionTreeNodeUnlocks>
 	<ProgressionTreePrereqs>

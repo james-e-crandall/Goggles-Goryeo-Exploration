@@ -1,36 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<Types>
-		<Row Type="TRAIT_GORYEO_ABILITY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_GORYEO_JEC_ABILITY" Kind="KIND_TRAIT"/>
 	</Types>
 	<Civilizations>
-		<Row CivilizationType="CIVILIZATION_GORYEO" Name="LOC_CIVILIZATION_GORYEO_NAME" FullName="LOC_CIVILIZATION_GORYEO_FULLNAME" Description="LOC_CIVILIZATION_GORYEO_DESCRIPTION" Adjective="LOC_CIVILIZATION_GORYEO_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_EX_GORYEO" CapitalName="LOC_CITY_NAME_GORYEO1" RandomCityNameDepth="10" />	
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" Name="LOC_CIVILIZATION_GORYEO_JEC_NAME" FullName="LOC_CIVILIZATION_GORYEO_JEC_FULLNAME" Description="LOC_CIVILIZATION_GORYEO_JEC_DESCRIPTION" Adjective="LOC_CIVILIZATION_GORYEO_JEC_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_EX_GORYEO_JEC" CapitalName="LOC_CITY_NAME_GORY_JEC1" RandomCityNameDepth="10" />	
 	</Civilizations>
 	<CivilizationFavoredWonders>
-		<!-- <Row CivilizationType="CIVILIZATION_GORYEO" FavoredWonderType="WONDER_MANWOLDAE" FavoredWonderName="LOC_WONDER_MANWOLDAE_NAME"/>
- -->
-
-		<Row CivilizationType="CIVILIZATION_GORYEO" FavoredWonderType="WONDER_BOROBUDUR" FavoredWonderName="LOC_WONDER_MANWOLDAE_NAME"/>
-
-		
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" FavoredWonderType="WONDER_MANWOLDAE" FavoredWonderName="LOC_WONDER_MANWOLDAE_NAME"/>
 	</CivilizationFavoredWonders>
 	<Traits>
-		<Row TraitType="TRAIT_GORYEO_ABILITY" Name="LOC_TRAIT_GORYEO_ABILITY_NAME" Description="LOC_TRAIT_GORYEO_ABILITY_DESCRIPTION" InternalOnly="true"/>
+		<Row TraitType="TRAIT_GORYEO_JEC_ABILITY" Name="LOC_TRAIT_GORYEO_JEC_ABILITY_NAME" Description="LOC_TRAIT_GORYEO_JEC_ABILITY_DESCRIPTION" InternalOnly="true"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_GORYEO_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_GORYEO"/>
-		<Row TraitType="TRAIT_GORYEO_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_GORYEO"/>
-		<Row TraitType="TRAIT_GORYEO_ABILITY" ModifierId="TRAIT_GORYEO_NEGOTIATION_OF_SEOHUI_PER_ACTIVE_TRADITION"/>
-		<Row TraitType="TRAIT_GORYEO_ABILITY" ModifierId="TRAIT_GORYEO_NEGOTIATION_OF_SEOHUI_ON_DIPLO_EVENT_END"/>
+		<Row TraitType="TRAIT_GORYEO_JEC_ABILITY" ModifierId="MOD_CIV_WONDER_PRODUCTION_GORYEO_JEC"/>
+		<Row TraitType="TRAIT_GORYEO_JEC_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_GORYEO_JEC"/>
+		<Row TraitType="TRAIT_GORYEO_JEC_ABILITY" ModifierId="TRAIT_GORYEO_JEC_NEGOTIATION_OF_SEOHUI_PER_ACTIVE_TRADITION"/>
+		<Row TraitType="TRAIT_GORYEO_JEC_ABILITY" ModifierId="TRAIT_GORYEO_JEC_NEGOTIATION_OF_SEOHUI_ON_DIPLO_EVENT_END"/>
 
 	</TraitModifiers>
 
 	<CivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_GORYEO" TraitType="TRAIT_EXPLORATION_CIV"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" TraitType="TRAIT_GORYEO"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" TraitType="TRAIT_GORYEO_ABILITY"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" TraitType="TRAIT_ATTRIBUTE_ECONOMIC"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" TraitType="TRAIT_ATTRIBUTE_POLITICAL"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" TraitType="TRAIT_EXPLORATION_CIV"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" TraitType="TRAIT_GORYEO_JEC"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" TraitType="TRAIT_GORYEO_JEC_ABILITY"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" TraitType="TRAIT_ATTRIBUTE_ECONOMIC"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" TraitType="TRAIT_ATTRIBUTE_POLITICAL"/>
 	</CivilizationTraits>
 
 	<RequirementSets>
@@ -38,75 +33,75 @@
 	</RequirementSets>
 
 	<RequirementSetRequirements>
-		<Row RequirementSetId="REQSET_PLAYER_IS_GORYEO" RequirementId="REQ_PLAYER_HAS_TRAIT_GORYEO"/>
+		<Row RequirementSetId="REQSET_PLAYER_IS_GORYEO" RequirementId="REQ_PLAYER_HAS_TRAIT_GORYEO_JEC"/>
 	</RequirementSetRequirements>
 
 	<Requirements>
-		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_GORYEO" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_GORYEO_JEC" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
 	</Requirements>
 
 	<RequirementArguments>
-		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_GORYEO" Name="TraitType" Value="TRAIT_GORYEO"/>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_GORYEO_JEC" Name="TraitType" Value="TRAIT_GORYEO_JEC"/>
 	</RequirementArguments>
 
 	<LeaderCivPriorities>
 		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
-		<Row Leader="LEADER_CONFUCIUS" Civilization="CIVILIZATION_GORYEO" Priority="2"/>
-		<Row Leader="LEADER_HIMIKO" Civilization="CIVILIZATION_GORYEO" Priority="2"/>
-		<Row Leader="LEADER_TRUNG_TRAC" Civilization="CIVILIZATION_GORYEO" Priority="2"/>
+		<Row Leader="LEADER_CONFUCIUS" Civilization="CIVILIZATION_GORYEO_JEC" Priority="2"/>
+		<Row Leader="LEADER_HIMIKO" Civilization="CIVILIZATION_GORYEO_JEC" Priority="2"/>
+		<Row Leader="LEADER_TRUNG_TRAC" Civilization="CIVILIZATION_GORYEO_JEC" Priority="2"/>
 	</LeaderCivPriorities>
 
 	<CityNames>
 		<!--GORYEO-->
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO1"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO2"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO3"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO4"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO5"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO6"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO7"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO8"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO9"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO10"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO11"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO12"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO13"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO14"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO15"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO16"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO17"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO18"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO19"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO20"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO21"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO22"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO23"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO24"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO25"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO26"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO27"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO28"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO29"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO30"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO31"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO32"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" CityName="LOC_CITY_NAME_GORYEO33"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC1"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC2"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC3"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC4"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC5"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC6"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC7"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC8"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC9"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC10"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC11"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC12"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC13"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC14"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC15"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC16"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC17"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC18"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC19"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC20"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC21"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC22"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC23"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC24"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC25"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC26"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC27"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC28"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC29"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC30"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC31"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC32"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" CityName="LOC_CITY_NAME_GORY_JEC33"/>
 	</CityNames>
 
 	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_GORYEO" TerrainType="TERRAIN_NAVIGABLE_RIVER" Score="20"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" TerrainType="TERRAIN_NAVIGABLE_RIVER" Score="20"/>
 	</StartBiasTerrains>
 	<StartBiasAdjacentToCoasts>
-			<Row CivilizationType="CIVILIZATION_GORYEO" Score="150"/>
+			<Row CivilizationType="CIVILIZATION_GORYEO_JEC" Score="150"/>
 	</StartBiasAdjacentToCoasts>
 
 	<VisArt_CivilizationBuildingCultures>
-		<Row CivilizationType="CIVILIZATION_GORYEO" BuildingCulture="BUILDING_CULTURE_EAS"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" BuildingCulture="ANT_STONE"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" BuildingCulture="EXP_STONE"/>
-		<Row CivilizationType="CIVILIZATION_GORYEO" BuildingCulture="MOD_STONE"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" BuildingCulture="BUILDING_CULTURE_EAS"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" BuildingCulture="MOD_STONE"/>
 	</VisArt_CivilizationBuildingCultures>
 	<VisArt_CivilizationUnitCultures>
-		<Row CivilizationType="CIVILIZATION_GORYEO" UnitCulture="Asian"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" UnitCulture="Asian"/>
 	</VisArt_CivilizationUnitCultures>
 </Database>

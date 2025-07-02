@@ -3,17 +3,17 @@
     <VisualRemaps>
         <!-- buildings -->
         <Row>
-            <ID>REMAP_BUILDING_SEOKTAP</ID>
-            <DisplayName>LOC_BUILDING_SEOKTAP_NAME</DisplayName>
+            <ID>REMAP_BUILDING_SEOKTAP_JEC</ID>
+            <DisplayName>LOC_BUILDING_SEOKTAP_JEC_NAME</DisplayName>
             <Kind>BUILDING</Kind>
-            <From>BUILDING_SEOKTAP</From>
+            <From>BUILDING_SEOKTAP_JEC</From>
             <To>BUILDING_CANDI_BENTAR</To>
         </Row>
         <Row>
-            <ID>REMAP_BUILDING_JANGGYEONGJEON</ID>
-            <DisplayName>LOC_BUILDING_JANGGYEONGJEON_NAME</DisplayName>
+            <ID>REMAP_BUILDING_JANGGYEONGJEON_JEC</ID>
+            <DisplayName>LOC_BUILDING_JANGGYEONGJEON_JEC_NAME</DisplayName>
             <Kind>BUILDING</Kind>
-            <From>BUILDING_JANGGYEONGJEON</From>
+            <From>BUILDING_JANGGYEONGJEON_JEC</From>
             <To>BUILDING_MERU</To>
         </Row>
         <!-- units -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<UnlockRequirements>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO" RequirementSetId="REQSET_LEADER_IS_HIMIKO_ALT" Description="LOC_UNLOCK_PLAY_AS_HIMIKO_ALT_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_HIMIKO_ALT_TOOLTIP"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO_JEC" RequirementSetId="REQSET_LEADER_IS_HIMIKO_ALT" Description="LOC_UNLOCK_PLAY_AS_HIMIKO_ALT_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_HIMIKO_ALT_TOOLTIP"/>
 	</UnlockRequirements>
 </Database>

@@ -2,22 +2,22 @@
 <Database>
 	<Types>
 		<!-- Major Civs -->
-		<Row Type="TRAIT_GORYEO" Kind="KIND_TRAIT"/>
-		<Row Type="CIVILIZATION_GORYEO" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_GORYEO_JEC" Kind="KIND_TRAIT"/>
+		<Row Type="CIVILIZATION_GORYEO_JEC" Kind="KIND_CIVILIZATION"/>
 	</Types>
 	<LegacyCivilizations>
 		<!-- Full Civs -->
-		<Row CivilizationType="CIVILIZATION_GORYEO" Name="LOC_CIVILIZATION_GORYEO_NAME" FullName="LOC_CIVILIZATION_GORYEO_FULLNAME" Adjective="LOC_CIVILIZATION_GORYEO_ADJECTIVE" Age="AGE_EXPLORATION"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" Name="LOC_CIVILIZATION_GORYEO_JEC_NAME" FullName="LOC_CIVILIZATION_GORYEO_JEC_FULLNAME" Adjective="LOC_CIVILIZATION_GORYEO_JEC_ADJECTIVE" Age="AGE_EXPLORATION"/>
 	</LegacyCivilizations>
 	<LegacyCivilizationTraits>
-		<Row CivilizationType="CIVILIZATION_GORYEO" TraitType="TRAIT_GORYEO"/>
+		<Row CivilizationType="CIVILIZATION_GORYEO_JEC" TraitType="TRAIT_GORYEO_JEC"/>
 	</LegacyCivilizationTraits>
 	<Traits>
-		<Row TraitType="TRAIT_GORYEO" InternalOnly="true"/>
+		<Row TraitType="TRAIT_GORYEO_JEC" InternalOnly="true"/>
 	</Traits>
 	<LegacyLeaderCivPriorities>
-		<Row Leader="LEADER_CONFUCIUS" CivilizationType="CIVILIZATION_GORYEO"/>
-		<Row Leader="LEADER_HIMIKO" CivilizationType="CIVILIZATION_GORYEO"/>
-		<Row Leader="LEADER_TRUNG_TRAC" CivilizationType="CIVILIZATION_GORYEO"/>
+		<Row Leader="LEADER_CONFUCIUS" CivilizationType="CIVILIZATION_GORYEO_JEC"/>
+		<Row Leader="LEADER_HIMIKO" CivilizationType="CIVILIZATION_GORYEO_JEC"/>
+		<Row Leader="LEADER_TRUNG_TRAC" CivilizationType="CIVILIZATION_GORYEO_JEC"/>
 	</LegacyLeaderCivPriorities>
 </Database>

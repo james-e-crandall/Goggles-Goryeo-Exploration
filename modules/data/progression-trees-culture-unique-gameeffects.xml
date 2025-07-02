@@ -61,7 +61,7 @@
 	</Modifier>
 	<!-- works -->
 	<Modifier id="BYEOKRANDO_MOD_ADJUST_GREAT_WORK_SLOTS" collection="COLLECTION_ALL_CITIES" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
-		<Argument name="ConstructibleType">BUILDING_JANGGYEONGJEON</Argument>
+		<Argument name="ConstructibleType">BUILDING_JANGGYEONGJEON_JEC</Argument>
 		<Argument name="SlotType">GREATWORKSLOT_RELIC</Argument>
 		<Argument name="Amount">1</Argument>
 		<String context="Description">LOC_BYEOKRANDO_MOD_ADJUST_GREAT_WORK_SLOTS_DESCRIPTION</String>

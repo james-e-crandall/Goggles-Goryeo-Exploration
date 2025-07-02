@@ -99,19 +99,19 @@ https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanic
 					<Item>text/en_us/UnlockText.xml</Item>
                 </UpdateText>
                 <ImportFiles>
-                    <Item>icons/civ_sym_goryeo</Item>
-					<Item>icons/civ_sym_goryeo.png</Item>
-					<Item>icons/cult_goryeo.png</Item>
-					<Item>icons/buildicon_seoktap.png</Item>
-					<Item>icons/buildicon_janggyeongjeon.png</Item>
-					<Item>icons/unitflag_byeolmuban.png</Item>
-					<Item>icons/unitflag_byeolmuban_2.png</Item>
-					<Item>icons/unitflag_byeolmuban_3.png</Item>
-					<Item>icons/unitflag_eungsa.png</Item>
-					<Item>icons/lsbg_goryeo_720</Item>
-					<Item>icons/lsbg_goryeo_1080</Item>
-					<Item>icons/bg-panel-goryeo.png</Item>
-					<Item>icons/bg-card-goryeo.png</Item>
+                    <Item>icons/civ_sym_goryeo_jec</Item>
+					<Item>icons/civ_sym_goryeo_jec.png</Item>
+					<Item>icons/cult_goryeo_jec.png</Item>
+					<Item>icons/buildicon_seoktap_jec.png</Item>
+					<Item>icons/buildicon_janggyeongjeon_jec.png</Item>
+					<Item>icons/unitflag_byeolmuban_jec.png</Item>
+					<Item>icons/unitflag_byeolmuban_jec_2.png</Item>
+					<Item>icons/unitflag_byeolmuban_jec_3.png</Item>
+					<Item>icons/unitflag_eungsa_jec.png</Item>
+					<Item>icons/lsbg_goryeo_jec_720</Item>
+					<Item>icons/lsbg_goryeo_jec_1080</Item>
+					<Item>icons/bg-panel-goryeo_jec.png</Item>
+					<Item>icons/bg-card-goryeo_jec.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/Goryeo.xml</Item>
@@ -195,19 +195,19 @@ https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanic
 					<Item>config/config.xml</Item>
 				</UpdateDatabase>
                 <ImportFiles>
-                    <Item>icons/civ_sym_goryeo</Item>
-					<Item>icons/civ_sym_goryeo.png</Item>
-					<Item>icons/cult_goryeo.png</Item>
-					<Item>icons/buildicon_seoktap.png</Item>
-					<Item>icons/buildicon_janggyeongjeon.png</Item>
-					<Item>icons/unitflag_byeolmuban.png</Item>
-					<Item>icons/unitflag_byeolmuban_2.png</Item>
-					<Item>icons/unitflag_byeolmuban_3.png</Item>
-					<Item>icons/unitflag_eungsa.png</Item>
-					<Item>icons/lsbg_goryeo_720</Item>
-					<Item>icons/lsbg_goryeo_1080</Item>
-					<Item>icons/bg-panel-goryeo.png</Item>
-					<Item>icons/bg-card-goryeo.png</Item>
+                    <Item>icons/civ_sym_goryeo_jec</Item>
+					<Item>icons/civ_sym_goryeo_jec.png</Item>
+					<Item>icons/cult_goryeo_jec.png</Item>
+					<Item>icons/buildicon_seoktap_jec.png</Item>
+					<Item>icons/buildicon_janggyeongjeon_jec.png</Item>
+					<Item>icons/unitflag_byeolmuban_jec.png</Item>
+					<Item>icons/unitflag_byeolmuban_jec_2.png</Item>
+					<Item>icons/unitflag_byeolmuban_jec_3.png</Item>
+					<Item>icons/unitflag_eungsa_jec.png</Item>
+					<Item>icons/lsbg_goryeo_jec_720</Item>
+					<Item>icons/lsbg_goryeo_jec_1080</Item>
+					<Item>icons/bg-panel-goryeo_jec.png</Item>
+					<Item>icons/bg-card-goryeo_jec.png</Item>
                 </ImportFiles>
                 <UpdateIcons>
                     <Item>data/icons/Goryeo.xml</Item>

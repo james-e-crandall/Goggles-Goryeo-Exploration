@@ -3,43 +3,43 @@
     <IconDefinitions>
         <!-- civilization -->
         <Row>
-            <ID>ICON_CIVILIZATION_GORYEO</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo</Path>
+            <ID>ICON_CIVILIZATION_GORYEO_JEC</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo_jec</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>CIVILIZATION_GORYEO</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo</Path>
+            <ID>CIVILIZATION_GORYEO_JEC</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/civ_sym_goryeo_jec</Path>
             <Context>DEFAULT</Context>
         </Row>
 		<Row>
-			<ID>CIVILIZATION_GORYEO</ID>
+			<ID>CIVILIZATION_GORYEO_JEC</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/goggles_civ_goryeo/icons/lsbg_goryeo_1080</Path>
+			<Path>fs://game/goggles_civ_goryeo/icons/lsbg_goryeo_jec_1080</Path>
 			<IconSize>1080</IconSize>
 		</Row>
 		<Row>
-			<ID>CIVILIZATION_GORYEO</ID>
+			<ID>CIVILIZATION_GORYEO_JEC</ID>
 			<Context>BACKGROUND</Context>
-			<Path>fs://game/goggles_civ_goryeo/icons/lsbg_goryeo_720</Path>
+			<Path>fs://game/goggles_civ_goryeo/icons/lsbg_goryeo_jec_720</Path>
 			<IconSize>720</IconSize>
 		</Row>
         <Row>
             <ID>civ_line_goryeo</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/civ_line_goryeo.png</Path>
+            <Path>fs://game/goggles_civ_goryeo/icons/civ_line_goryeo_jec.png</Path>
         </Row>
         <Row>
             <ID>bg-panel-goryeo</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/bg-panel-goryeo</Path>
+            <Path>fs://game/goggles_civ_goryeo/icons/bg-panel-goryeo_jec</Path>
         </Row>
         <Row>
             <ID>bg-card-goryeo</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/bg-card-goryeo</Path>
+            <Path>fs://game/goggles_civ_goryeo/icons/bg-card-goryeo_jec</Path>
         </Row>
         <!-- Culture Tree -->
         <Row>
             <ID>cult_goryeo</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/cult_goryeo.png</Path>
+            <Path>fs://game/goggles_civ_goryeo/icons/cult_goryeo_jec.png</Path>
         </Row>
         <!-- constructables -->
 		<Row>
@@ -47,42 +47,42 @@
 			<Path>fs://game/goggles_civ_goryeo/icons/wondericon_manwoldae.png</Path>
 		</Row>
         <Row>
-            <ID>BUILDING_SEOKTAP</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/buildicon_seoktap.png</Path>
+            <ID>BUILDING_SEOKTAP_JEC</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/buildicon_seoktap_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>ICON_BUILDING_SEOKTAP</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/buildicon_seoktap.png</Path>
+            <ID>ICON_BUILDING_SEOKTAP_JEC</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/buildicon_seoktap_jec.png</Path>
         </Row>
         <Row>
-            <ID>BUILDING_JANGGYEONGJEON</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/buildicon_janggyeongjeon.png</Path>
+            <ID>BUILDING_JANGGYEONGJEON_JEC</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/buildicon_janggyeongjeon_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
-            <ID>ICON_BUILDING_JANGGYEONGJEON</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/buildicon_janggyeongjeon.png</Path>
+            <ID>ICON_BUILDING_JANGGYEONGJEON_JEC</ID>
+            <Path>fs://game/goggles_civ_goryeo/icons/buildicon_janggyeongjeon_jec.png</Path>
         </Row>
         <!-- units -->
         <Row>
             <ID>UNIT_BYEOLMUBAN</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban.png</Path>
+            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
             <ID>UNIT_BYEOLMUBAN_2</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban_2.png</Path>
+            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban_jec_2.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
             <ID>UNIT_BYEOLMUBAN_3</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban_3.png</Path>
+            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_byeolmuban_jec_3.png</Path>
             <Context>DEFAULT</Context>
         </Row>
         <Row>
             <ID>UNIT_EUNGSA</ID>
-            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_eungsa.png</Path>
+            <Path>fs://game/goggles_civ_goryeo/icons/unitflag_eungsa_jec.png</Path>
             <Context>DEFAULT</Context>
         </Row>
 

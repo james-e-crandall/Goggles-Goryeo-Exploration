@@ -2,115 +2,115 @@
 <Database>
 	<EnglishText>
 		<!--GORYEO-->
-		<Row Tag="LOC_CITY_NAME_GORYEO1">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC1">
 			<Text>Gaegyeong</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO2">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC2">
 			<Text>Seogyeong</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO3">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC3">
 			<Text>Donggyeong</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO4">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC4">
 			<Text>Namgyeong </Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO5">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC5">
 			<Text>Yangju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO6">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC6">
 			<Text>Gwangju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO7">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC7">
 			<Text>Chungju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO8">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC8">
 			<Text>Cheongju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO9">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC9">
 			<Text>Gongju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO10">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC10">
 			<Text>Jinju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO11">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC11">
 			<Text>Sangju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO12">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC12">
 			<Text>Jeonju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO13">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC13">
 			<Text>Naju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO14">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC14">
 			<Text>Seungju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO15">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC15">
 			<Text>Hwangju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO16">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC16">
 			<Text>Haeju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO17">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC17">
 			<Text>Gilju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO18">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC18">
 			<Text>Andong</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO19">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC19">
 			<Text>Anbyeon</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO20">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC20">
 			<Text>Suju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO21">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC21">
 			<Text>Wonju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO22">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC22">
 			<Text>Dongju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO23">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC23">
 			<Text>Cheonan</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO24">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC24">
 			<Text>Gokju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO25">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC25">
 			<Text>Milseong</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO26">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC26">
 			<Text>Pyeongju</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO27">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC27">
 			<Text>Gyeongsan</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO28">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC28">
 			<Text>Baekryeong</Text>
 		</Row>	
-		<Row Tag="LOC_CITY_NAME_GORYEO29">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC29">
 			<Text>Ganghwa</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO30">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC30">
 			<Text>Namhae</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO31">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC31">
 			<Text>Geoje</Text>
 		</Row>	
-		<Row Tag="LOC_CITY_NAME_GORYEO32">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC32">
 			<Text>Ongjin</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO33">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC33">
 			<Text>Samcheok</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO34">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC34">
 			<Text>Jindo</Text>
 		</Row>		
-		<Row Tag="LOC_CITY_NAME_GORYEO35">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC35">
 			<Text>Goseong</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO36">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC36">
 			<Text>Uljin</Text>
 		</Row>
-		<Row Tag="LOC_CITY_NAME_GORYEO37">
+		<Row Tag="LOC_CITY_NAME_GORY_JEC37">
 			<Text>Tamna</Text>
 		</Row>		
 	</EnglishText>

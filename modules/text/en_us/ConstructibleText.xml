@@ -2,23 +2,23 @@
 <Database>
 	<EnglishText>
 		<!-- Civ Unique Improvements -->
-		<Row Tag="LOC_BUILDING_SEOKTAP_NAME">
+		<Row Tag="LOC_BUILDING_SEOKTAP_JEC_NAME">
 			<Text>Seoktap</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_SEOKTAP_DESCRIPTION">
+		<Row Tag="LOC_BUILDING_SEOKTAP_JEC_DESCRIPTION">
 			<Text>Unique Culture Building.  Additional Culture for each Adjacent Coastal Tile.</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_SEOKTAP_TOOLTIP">
+		<Row Tag="LOC_BUILDING_SEOKTAP_JEC_TOOLTIP">
 			<Text>Seoktap Unique Culture Building. Ageless.</Text>
 		</Row>
 
-		<Row Tag="LOC_BUILDING_JANGGYEONGJEON_NAME">
+		<Row Tag="LOC_BUILDING_JANGGYEONGJEON_JEC_NAME">
 			<Text>Janggyeongjeon</Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_JANGGYEONGJEON_DESCRIPTION">
+		<Row Tag="LOC_BUILDING_JANGGYEONGJEON_JEC_DESCRIPTION">
 			<Text>Unique Happiness Building. Grants a Great Work Slot. Additional Culture for each Adjacent Navigable River Tile. </Text>
 		</Row>
-		<Row Tag="LOC_BUILDING_JANGGYEONGJEON_TOOLTIP">
+		<Row Tag="LOC_BUILDING_JANGGYEONGJEON_JEC_TOOLTIP">
 			<Text>Janggyeongjeon Unique Happiness Building. Ageless.</Text>
 		</Row>
 

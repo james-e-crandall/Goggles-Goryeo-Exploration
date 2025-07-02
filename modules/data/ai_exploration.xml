@@ -18,16 +18,16 @@
 	</AiListTypes>
 	<AiLists>
 		<!-- Goryeo -->
-		<Row ListType="Goryeo Unit Biases" LeaderType="TRAIT_GORYEO" System="UnitBiases"/>
-		<Row ListType="Goryeo Government Bias" LeaderType="TRAIT_GORYEO" System="GovernmentBiases"/>
-		<Row ListType="Goryeo Constructibles Biases" LeaderType="TRAIT_GORYEO" System="ConstructibleBiases" />	
-		<Row ListType="Goryeo Budget Biases" LeaderType="TRAIT_GORYEO" System="AiBudgetBiases"/>	
-		<Row ListType="Goryeo PseudoYield Biases" LeaderType="TRAIT_GORYEO" System="PseudoYieldBiases"/>	
+		<Row ListType="Goryeo Unit Biases" LeaderType="TRAIT_GORYEO_JEC" System="UnitBiases"/>
+		<Row ListType="Goryeo Government Bias" LeaderType="TRAIT_GORYEO_JEC" System="GovernmentBiases"/>
+		<Row ListType="Goryeo Constructibles Biases" LeaderType="TRAIT_GORYEO_JEC" System="ConstructibleBiases" />	
+		<Row ListType="Goryeo Budget Biases" LeaderType="TRAIT_GORYEO_JEC" System="AiBudgetBiases"/>	
+		<Row ListType="Goryeo PseudoYield Biases" LeaderType="TRAIT_GORYEO_JEC" System="PseudoYieldBiases"/>	
 	</AiLists>
 	<AiFavoredItems>
 		<!-- Goryeo -->
-		<Row ListType="Goryeo Constructibles Biases" Item="BUILDING_SEOKTAP" Value="200" />
-		<Row ListType="Goryeo Constructibles Biases" Item="BUILDING_JANGGYEONGJEON" Value="200" />
+		<Row ListType="Goryeo Constructibles Biases" Item="BUILDING_SEOKTAP_JEC" Value="200" />
+		<Row ListType="Goryeo Constructibles Biases" Item="BUILDING_JANGGYEONGJEON_JEC" Value="200" />
 		<Row ListType="Goryeo Unit Biases" Item="UNIT_BYEOLMUBAN" Value="50"/>
 		<Row ListType="Goryeo Unit Biases" Item="UNIT_BYEOLMUBAN_2" Value="50"/>
 		<Row ListType="Goryeo Unit Biases" Item="UNIT_BYEOLMUBAN_3" Value="50"/>

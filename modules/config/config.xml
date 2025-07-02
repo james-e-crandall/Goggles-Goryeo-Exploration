@@ -15,47 +15,47 @@
 
 	</LeaderCivilizationBias>
 	<Civilizations>
-		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" CivilizationName="LOC_CIVILIZATION_GORYEO_NAME" CivilizationFullName="LOC_CIVILIZATION_GORYEO_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_GORYEO_DESCRIPTION" CivilizationIcon="civ_sym_goryeo.png"/>
+		<Row Domain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" CivilizationName="LOC_CIVILIZATION_GORYEO_JEC_NAME" CivilizationFullName="LOC_CIVILIZATION_GORYEO_JEC_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_GORYEO_JEC_DESCRIPTION" CivilizationIcon="civ_sym_goryeo.png"/>
 	</Civilizations>
 	<CivilizationItems>
 		<!-- Civ Trait -->
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="TRAIT_GORYEO_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_GORYEO_ABILITY_NAME" Description="LOC_TRAIT_GORYEO_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" Type="TRAIT_GORYEO_JEC_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_GORYEO_JEC_ABILITY_NAME" Description="LOC_TRAIT_GORYEO_JEC_ABILITY_DESCRIPTION"/>
 		<!-- Buidlings -->
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="BUILDING_SEOKTAP" Kind="KIND_BUILDING" Name="LOC_BUILDING_SEOKTAP_NAME" Description="LOC_BUILDING_SEOKTAP_DESCRIPTION" Icon="ICON_BUILDING_SEOKTAP"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="BUILDING_JANGGYEONGJEON" Kind="KIND_BUILDING" Name="LOC_BUILDING_JANGGYEONGJEON_NAME" Description="LOC_BUILDING_JANGGYEONGJEON_DESCRIPTION" Icon="ICON_BUILDING_JANGGYEONGJEON"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" Type="BUILDING_SEOKTAP_JEC" Kind="KIND_BUILDING" Name="LOC_BUILDING_SEOKTAP_JEC_NAME" Description="LOC_BUILDING_SEOKTAP_JEC_DESCRIPTION" Icon="ICON_BUILDING_SEOKTAP_JEC"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" Type="BUILDING_JANGGYEONGJEON_JEC" Kind="KIND_BUILDING" Name="LOC_BUILDING_JANGGYEONGJEON_JEC_NAME" Description="LOC_BUILDING_JANGGYEONGJEON_JEC_DESCRIPTION" Icon="ICON_BUILDING_JANGGYEONGJEON_JEC"/>
 
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="QUARTER_DAESACHAL" Kind="KIND_QUARTER" Name="LOC_QUARTER_DAESACHAL_NAME" Description="LOC_QUARTER_DAESACHAL_DESCRIPTION" Icon="city_uniquequarter"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" Type="QUARTER_DAESACHAL" Kind="KIND_QUARTER" Name="LOC_QUARTER_DAESACHAL_NAME" Description="LOC_QUARTER_DAESACHAL_DESCRIPTION" Icon="city_uniquequarter"/>
 
 		<!-- Units -->
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="UNIT_BYEOLMUBAN" Kind="KIND_UNIT" Name="LOC_UNIT_BYEOLMUBAN_NAME" Description="LOC_UNIT_BYEOLMUBAN_DESCRIPTION" Icon="ICON_UNIT_BYEOLMUBAN"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" Type="UNIT_EUNGSA" Kind="KIND_UNIT" Name="LOC_UNIT_EUNGSA_NAME" Description="LOC_UNIT_EUNGSA_DESCRIPTION" Icon="ICON_UNIT_EUNGSA"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" Type="UNIT_BYEOLMUBAN" Kind="KIND_UNIT" Name="LOC_UNIT_BYEOLMUBAN_NAME" Description="LOC_UNIT_BYEOLMUBAN_DESCRIPTION" Icon="ICON_UNIT_BYEOLMUBAN"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" Type="UNIT_EUNGSA" Kind="KIND_UNIT" Name="LOC_UNIT_EUNGSA_NAME" Description="LOC_UNIT_EUNGSA_DESCRIPTION" Icon="ICON_UNIT_EUNGSA"/>
 		
 	</CivilizationItems>
 	<CivilizationTags>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" TagType="TAG_TRAIT_ECONOMIC"/>
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" TagType="TAG_TRAIT_POLITICAL"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" TagType="TAG_TRAIT_ECONOMIC"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" TagType="TAG_TRAIT_POLITICAL"/>
 	</CivilizationTags>
 	<LeaderCivilizationBias>
 		<!-- Base -->
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_CONFUCIUS_GORYEO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" LeaderDomain="StandardLeaders" LeaderType="LEADER_HIMIKO" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_HIMIKO_GORYEO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" LeaderDomain="StandardLeaders" LeaderType="LEADER_TRUNG_TRAC" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_TRUNG_TRAC_GORYEO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_CONFUCIUS_GORYEO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_HIMIKO" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_HIMIKO_GORYEO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_TRUNG_TRAC" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_TRUNG_TRAC_GORYEO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
 		<!-- DLC -->
-		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO" LeaderDomain="StandardLeaders" LeaderType="LEADER_HIMIKO_ALT" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_HIMIKO_ALT_GORYEO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_GORYEO_JEC" LeaderDomain="StandardLeaders" LeaderType="LEADER_HIMIKO_ALT" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_HIMIKO_ALT_GORYEO_TOOLTIP" ChoiceType="LOC_CREATE_GAME_GEOGRAPHIC_CHOICE" />
 		
 	</LeaderCivilizationBias>
 	<CivilizationUnlocks>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_KHMER" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_GORYEO" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GORYEO_NAME" Description="LOC_CIVILIZATION_GORYEO_DESCRIPTION" Icon="CIVILIZATION_GORYEO"/>
-		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HAN" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_GORYEO" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GORYEO_NAME" Description="LOC_CIVILIZATION_GORYEO_DESCRIPTION" Icon="CIVILIZATION_GORYEO"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_KHMER" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_GORYEO_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GORYEO_JEC_NAME" Description="LOC_CIVILIZATION_GORYEO_JEC_DESCRIPTION" Icon="CIVILIZATION_GORYEO_JEC"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HAN" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_GORYEO_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GORYEO_JEC_NAME" Description="LOC_CIVILIZATION_GORYEO_JEC_DESCRIPTION" Icon="CIVILIZATION_GORYEO_JEC"/>
 		
 	</CivilizationUnlocks>
 	<LeaderUnlocks>
 		<!-- Base -->
-		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_GORYEO" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GORYEO_NAME" Description="LOC_CIVILIZATION_GORYEO_DESCRIPTION" Icon="CIVILIZATION_GORYEO"/>
-		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_HIMIKO" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_GORYEO" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GORYEO_NAME" Description="LOC_CIVILIZATION_GORYEO_DESCRIPTION" Icon="CIVILIZATION_GORYEO"/>
-		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_TRUNG_TRAC" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_GORYEO" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GORYEO_NAME" Description="LOC_CIVILIZATION_GORYEO_DESCRIPTION" Icon="CIVILIZATION_GORYEO"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_CONFUCIUS" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_GORYEO_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GORYEO_JEC_NAME" Description="LOC_CIVILIZATION_GORYEO_JEC_DESCRIPTION" Icon="CIVILIZATION_GORYEO_JEC"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_HIMIKO" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_GORYEO_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GORYEO_JEC_NAME" Description="LOC_CIVILIZATION_GORYEO_JEC_DESCRIPTION" Icon="CIVILIZATION_GORYEO_JEC"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_TRUNG_TRAC" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_GORYEO_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GORYEO_JEC_NAME" Description="LOC_CIVILIZATION_GORYEO_JEC_DESCRIPTION" Icon="CIVILIZATION_GORYEO_JEC"/>
 		<!-- DLC -->
-		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_HIMIKO_ALT" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_GORYEO" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GORYEO_NAME" Description="LOC_CIVILIZATION_GORYEO_DESCRIPTION" Icon="CIVILIZATION_GORYEO"/>
+		<Row LeaderDomain="StandardLeaders" LeaderType="LEADER_HIMIKO_ALT" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_GORYEO_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GORYEO_JEC_NAME" Description="LOC_CIVILIZATION_GORYEO_JEC_DESCRIPTION" Icon="CIVILIZATION_GORYEO_JEC"/>
 		
 	</LeaderUnlocks>
 	<Mementos>

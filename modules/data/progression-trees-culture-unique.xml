@@ -2,7 +2,7 @@
 <Database>
 	<Types>
 		<!-- Civ Unique Trees -->
-		<Row Type="TREE_CIVICS_EX_GORYEO" Kind="KIND_TREE"/>
+		<Row Type="TREE_CIVICS_EX_GORYEO_JEC" Kind="KIND_TREE"/>
 		<!-- Civ Unique Tree Nodes -->
 		<Row Type="NODE_CIVIC_EX_GORYEO_HOJOK" Kind="KIND_TREE_NODE"/>
 		<Row Type="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" Kind="KIND_TREE_NODE"/>
@@ -14,23 +14,23 @@
 		<Row Type="NODE_CIVIC_EX_GORYEO_BYEOKRANDO" Quote="LOC_CIVIC_EX_GORYEO_BYEOKRANDO_QUOTE" QuoteAuthor="LOC_CIVIC_EX_GORYEO_BYEOKRANDO_GORYEO_QUOTE_AUTHOR" QuoteAudio="VO_Quote_Byeokrando"/>
 	</TypeQuotes>
 	<ProgressionTrees>
-		<Row ProgressionTreeType="TREE_CIVICS_EX_GORYEO" AgeType="AGE_ANTIQUITY" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_EX_GORYEO_NAME"/>
+		<Row ProgressionTreeType="TREE_CIVICS_EX_GORYEO_JEC" AgeType="AGE_ANTIQUITY" SystemType="SYSTEM_CULTURE" Name="LOC_TREE_CIVICS_EX_GORYEO_JEC_NAME"/>
 	</ProgressionTrees>
 	<ProgressionTreeNodes>
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_HOJOK" ProgressionTree="TREE_CIVICS_EX_GORYEO" Cost="800" Name="LOC_CIVIC_EX_GORYEO_HOJOK_NAME" IconString="cult_goryeo" />
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" ProgressionTree="TREE_CIVICS_EX_GORYEO" Cost="1200" Name="LOC_CIVIC_EX_GORYEO_PATRIOTIC_WAR_NAME" IconString="cult_goryeo" />
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_BYEOKRANDO" ProgressionTree="TREE_CIVICS_EX_GORYEO" Cost="2000" Name="LOC_CIVIC_EX_GORYEO_BYEOKRANDO_NAME" IconString="cult_goryeo" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_HOJOK" ProgressionTree="TREE_CIVICS_EX_GORYEO_JEC" Cost="800" Name="LOC_CIVIC_EX_GORYEO_HOJOK_NAME" IconString="cult_goryeo_jec" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" ProgressionTree="TREE_CIVICS_EX_GORYEO_JEC" Cost="1200" Name="LOC_CIVIC_EX_GORYEO_PATRIOTIC_WAR_NAME" IconString="cult_goryeo_jec" />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_BYEOKRANDO" ProgressionTree="TREE_CIVICS_EX_GORYEO_JEC" Cost="2000" Name="LOC_CIVIC_EX_GORYEO_BYEOKRANDO_NAME" IconString="cult_goryeo_jec" />
 	</ProgressionTreeNodes>
 	<ProgressionTreeNodeUnlocks>
 		<!-- HOJOK -->
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_HOJOK" TargetKind="KIND_CONSTRUCTIBLE" TargetType="WONDER_MANWOLDAE" UnlockDepth="1"  />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_HOJOK" TargetKind="KIND_MODIFIER" TargetType="HOJOK_MOD_GOLD_TOWNS" UnlockDepth="1" />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_HOJOK" TargetKind="KIND_MODIFIER" TargetType="HOJOK_MOD_HAPPINESS_TOWNS" UnlockDepth="1" />
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_HOJOK" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_SEOKTAP" UnlockDepth="2"  />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_HOJOK" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_SEOKTAP_JEC" UnlockDepth="2"  />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_HOJOK" TargetKind="KIND_MODIFIER" TargetType="HOJOK_MOD_ADJUST_SETTLEMENT_CAP" UnlockDepth="2" />
 		
 		<!-- PATRIOTIC_WAR -->
-		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_JANGGYEONGJEON" UnlockDepth="1"  />
+		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" TargetKind="KIND_CONSTRUCTIBLE" TargetType="BUILDING_JANGGYEONGJEON_JEC" UnlockDepth="1"  />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" TargetKind="KIND_TRADITION" TargetType="TRADITION_EX_GORYEO_CHEOLLIJANGSEONG" UnlockDepth="1" />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" TargetKind="KIND_TRADITION" TargetType="TRADITION_EX_GORYEO_TRIPITAKA_KOREANA" UnlockDepth="2" />
 		<Row ProgressionTreeNodeType="NODE_CIVIC_EX_GORYEO_PATRIOTIC_WAR" TargetKind="KIND_MODIFIER" TargetType="PATRIOTIC_WAR_MOD_GRANT_UNIT_PROMOTION" UnlockDepth="2" />

@@ -2,8 +2,8 @@
 <Database>  
 	<Types>
 		<!-- Civ Unique Buildings -->
-		<Row Type="BUILDING_SEOKTAP" Kind="KIND_CONSTRUCTIBLE"/>
-		<Row Type="BUILDING_JANGGYEONGJEON" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_SEOKTAP_JEC" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_JANGGYEONGJEON_JEC" Kind="KIND_CONSTRUCTIBLE"/>
 	</Types>
 	<TypeQuotes>
 	</TypeQuotes>
@@ -11,13 +11,13 @@
 	</AgeGrowthBalances>
 	<Constructibles>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_SEOKTAP" Name="LOC_BUILDING_SEOKTAP_NAME" Description="LOC_BUILDING_SEOKTAP_DESCRIPTION" Tooltip="LOC_BUILDING_SEOKTAP_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_EXPLORATION"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" Name="LOC_BUILDING_JANGGYEONGJEON_NAME" Description="LOC_BUILDING_JANGGYEONGJEON_DESCRIPTION" Tooltip="LOC_BUILDING_JANGGYEONGJEON_TOOLTIP" ConstructibleClass="BUILDING" Cost="280" Population="1" Age="AGE_EXPLORATION"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP_JEC" Name="LOC_BUILDING_SEOKTAP_JEC_NAME" Description="LOC_BUILDING_SEOKTAP_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_SEOKTAP_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="240" Population="1" Age="AGE_EXPLORATION"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON_JEC" Name="LOC_BUILDING_JANGGYEONGJEON_JEC_NAME" Description="LOC_BUILDING_JANGGYEONGJEON_JEC_DESCRIPTION" Tooltip="LOC_BUILDING_JANGGYEONGJEON_JEC_TOOLTIP" ConstructibleClass="BUILDING" Cost="280" Population="1" Age="AGE_EXPLORATION"/>
 	</Constructibles>
 	<Buildings>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_SEOKTAP" Movable="false" TraitType="TRAIT_GORYEO"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" Movable="false" TraitType="TRAIT_GORYEO"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP_JEC" Movable="false" TraitType="TRAIT_GORYEO_JEC"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON_JEC" Movable="false" TraitType="TRAIT_GORYEO_JEC"/>
 	</Buildings>
 	<Improvements>
 	</Improvements>
@@ -25,20 +25,20 @@
 	</Wonders>
 	<TypeTags>
 		<!-- Civ Unique Buildings -->
-		<Row Type="BUILDING_SEOKTAP" Tag="CULTURE"/>
-		<Row Type="BUILDING_SEOKTAP" Tag="UNIQUE"/>
-		<Row Type="BUILDING_SEOKTAP" Tag="AGELESS"/>
-		<Row Type="BUILDING_JANGGYEONGJEON" Tag="HAPPINESS"/>
-		<Row Type="BUILDING_JANGGYEONGJEON" Tag="UNIQUE"/>
-		<Row Type="BUILDING_JANGGYEONGJEON" Tag="AGELESS"/>
+		<Row Type="BUILDING_SEOKTAP_JEC" Tag="CULTURE"/>
+		<Row Type="BUILDING_SEOKTAP_JEC" Tag="UNIQUE"/>
+		<Row Type="BUILDING_SEOKTAP_JEC" Tag="AGELESS"/>
+		<Row Type="BUILDING_JANGGYEONGJEON_JEC" Tag="HAPPINESS"/>
+		<Row Type="BUILDING_JANGGYEONGJEON_JEC" Tag="UNIQUE"/>
+		<Row Type="BUILDING_JANGGYEONGJEON_JEC" Tag="AGELESS"/>
 		<!-- Civ Unique Improvements -->
 	</TypeTags>
 	<Constructible_ValidDistricts>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_SEOKTAP" DistrictType="DISTRICT_CITY_CENTER"/>
-		<Row ConstructibleType="BUILDING_SEOKTAP" DistrictType="DISTRICT_URBAN"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" DistrictType="DISTRICT_CITY_CENTER"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP_JEC" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP_JEC" DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON_JEC" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON_JEC" DistrictType="DISTRICT_URBAN"/>
 
 	</Constructible_ValidDistricts>
 	<District_FreeConstructibles>
@@ -68,8 +68,8 @@
 	<Constructible_YieldChanges>
 
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_SEOKTAP" YieldType="YIELD_CULTURE" YieldChange="3"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP_JEC" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON_JEC" YieldType="YIELD_HAPPINESS" YieldChange="3"/>
 		
 		<!-- Civ Unique Improvements -->
 
@@ -77,21 +77,21 @@
 	<Constructible_Maintenances>
 
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_SEOKTAP" YieldType="YIELD_GOLD" Amount="4"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldType="YIELD_GOLD" Amount="3"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP_JEC" YieldType="YIELD_GOLD" Amount="4"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON_JEC" YieldType="YIELD_GOLD" Amount="3"/>
 		
 	</Constructible_Maintenances>
 	<Constructible_Adjacencies>
 		<!-- Civ Uniques -->
-		<Row ConstructibleType="BUILDING_SEOKTAP" YieldChangeId="MountainCulture"/>
-		<Row ConstructibleType="BUILDING_SEOKTAP" YieldChangeId="NaturalWonderCulture"/>
-		<Row ConstructibleType="BUILDING_SEOKTAP" YieldChangeId="WonderCulture"/>
-		<Row ConstructibleType="BUILDING_SEOKTAP" YieldChangeId="SeoktapCoastCulture"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP_JEC" YieldChangeId="MountainCulture"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP_JEC" YieldChangeId="NaturalWonderCulture"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP_JEC" YieldChangeId="WonderCulture"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP_JEC" YieldChangeId="SeoktapCoastCulture"/>
 
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="MountainHappiness"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="NaturalWonderHappiness"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="WonderHappiness"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" YieldChangeId="JanggyeongjeonRiverHappiness"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON_JEC" YieldChangeId="MountainHappiness"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON_JEC" YieldChangeId="NaturalWonderHappiness"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON_JEC" YieldChangeId="WonderHappiness"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON_JEC" YieldChangeId="JanggyeongjeonRiverHappiness"/>
 	</Constructible_Adjacencies>
 	<Adjacency_YieldChanges>
 		<Row ID="SeoktapCoastCulture" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="2" AdjacentTerrain="TERRAIN_COAST"/>
@@ -115,15 +115,15 @@
 	</Constructible_Logistics>
 	<Constructible_Plunders>
 		<!-- Civ Unique Buildings -->
-		<Row ConstructibleType="BUILDING_SEOKTAP" PlunderType="PLUNDER_CULTURE" Amount="80"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" PlunderType="PLUNDER_GOLD" Amount="80"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP_JEC" PlunderType="PLUNDER_CULTURE" Amount="80"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON_JEC" PlunderType="PLUNDER_GOLD" Amount="80"/>
 		
 	</Constructible_Plunders>
 	<ConstructibleModifiers>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" ModifierId="JANGGYEONGJEON_MOD_GREAT_WORK_CULTURE"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON_JEC" ModifierId="JANGGYEONGJEON_MOD_GREAT_WORK_CULTURE"/>
 	</ConstructibleModifiers>
 	<UniqueQuarters>
-		<Row UniqueQuarterType="QUARTER_DAESACHAL" BuildingType1="BUILDING_SEOKTAP" BuildingType2="BUILDING_JANGGYEONGJEON" Name="LOC_QUARTER_DAESACHAL_NAME" Description="LOC_QUARTER_DAESACHAL_DESCRIPTION" Tooltip="LOC_QUARTER_DAESACHAL_TOOLTIP" TraitType="TRAIT_GORYEO"/>
+		<Row UniqueQuarterType="QUARTER_DAESACHAL" BuildingType1="BUILDING_SEOKTAP_JEC" BuildingType2="BUILDING_JANGGYEONGJEON_JEC" Name="LOC_QUARTER_DAESACHAL_NAME" Description="LOC_QUARTER_DAESACHAL_DESCRIPTION" Tooltip="LOC_QUARTER_DAESACHAL_TOOLTIP" TraitType="TRAIT_GORYEO_JEC"/>
 	</UniqueQuarters>
 	<GameModifiers>
 		<!-- Unique Quarter modifiers are game-wide -->
@@ -137,8 +137,8 @@
 	</UniqueQuarterModifiers>
 	<Constructible_Advisories>
 		<!-- Antique Revived Buildings -->
-		<Row ConstructibleType="BUILDING_SEOKTAP" AdvisoryClassType="ADVISORY_CLASS_HAPPINESS"/>
-		<Row ConstructibleType="BUILDING_JANGGYEONGJEON" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
+		<Row ConstructibleType="BUILDING_SEOKTAP_JEC" AdvisoryClassType="ADVISORY_CLASS_HAPPINESS"/>
+		<Row ConstructibleType="BUILDING_JANGGYEONGJEON_JEC" AdvisoryClassType="ADVISORY_CLASS_CULTURE"/>
 	</Constructible_Advisories>
 
 </Database>
