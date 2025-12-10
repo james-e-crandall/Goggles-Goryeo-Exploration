@@ -44,6 +44,10 @@ https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanic
 		<Criteria all="true" id="silla-enable">
 			<ModInUse>silla</ModInUse>
 		</Criteria>
+		<Criteria all="true" id="silla-enable-age-antiquity">
+			<ModInUse>silla</ModInUse>
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
         <Criteria all="true" id="ged-ynamp-enable">
             <ModInUse>ged-ynamp</ModInUse>
         </Criteria>
@@ -80,7 +84,7 @@ https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanic
 				</UIScripts>
 			</Actions>
 		</ActionGroup>
-		<ActionGroup id="goryeo-silla" scope="game" criteria="silla-enable">
+		<ActionGroup id="goryeo-silla" scope="game" criteria="silla-enable-age-antiquity">
             <Properties>
 				<LoadOrder>100</LoadOrder>
 			</Properties>

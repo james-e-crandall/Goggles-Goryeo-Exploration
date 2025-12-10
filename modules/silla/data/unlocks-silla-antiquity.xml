@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Database>
 	<UnlockRequirements>
-		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO_JEC" RequirementSetId="REQSET_CIV_IS_SILLA" Description="LOC_UNLOCK_PLAY_AS_SILLA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SILLA_GORYEO_DESCRIPTION"/>
+		<InsertOrIgnore UnlockType="UNLOCK_CIVILIZATION_GORYEO_JEC" RequirementSetId="REQSET_PLAYER_IS_SILLA" Description="LOC_UNLOCK_PLAY_AS_SILLA_DESCRIPTION" Tooltip="LOC_UNLOCK_PLAY_AS_SILLA_GORYEO_DESCRIPTION"/>
 	</UnlockRequirements>
 
 </Database>
