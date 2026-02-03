@@ -47,7 +47,8 @@
 	<CivilizationUnlocks>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_KHMER" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_GORYEO_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GORYEO_JEC_NAME" Description="LOC_CIVILIZATION_GORYEO_JEC_DESCRIPTION" Icon="CIVILIZATION_GORYEO_JEC"/>
 		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_HAN" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_GORYEO_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GORYEO_JEC_NAME" Description="LOC_CIVILIZATION_GORYEO_JEC_DESCRIPTION" Icon="CIVILIZATION_GORYEO_JEC"/>
-		
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_SILLA" AgeDomain="StandardAges" AgeType="AGE_EXPLORATION" Type="CIVILIZATION_GORYEO_JEC" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_GORYEO_JEC_NAME" Description="LOC_CIVILIZATION_GORYEO_JEC_DESCRIPTION" Icon="CIVILIZATION_GORYEO_JEC"/>
+
 	</CivilizationUnlocks>
 	<LeaderUnlocks>
 		<!-- Base -->

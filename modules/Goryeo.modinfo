@@ -41,6 +41,13 @@ https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanic
         <Criteria all="true" id="ashoka-himiko-alt-enable">
             <ModInUse>ashoka-himiko-alt</ModInUse>
         </Criteria>
+		<Criteria all="true" id="silla-enable">
+			<ModInUse>silla</ModInUse>
+		</Criteria>
+		<Criteria all="true" id="silla-enable-age-antiquity">
+			<ModInUse>silla</ModInUse>
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
         <Criteria all="true" id="ged-ynamp-enable">
             <ModInUse>ged-ynamp</ModInUse>
         </Criteria>
@@ -76,6 +83,19 @@ https://forums.civfanatics.com/threads/design-a-civ-using-known-civ-vii-mechanic
 					<Item>ui/game.js</Item>
 				</UIScripts>
 			</Actions>
+		</ActionGroup>
+		<ActionGroup id="goryeo-silla" scope="game" criteria="silla-enable-age-antiquity">
+            <Properties>
+				<LoadOrder>100</LoadOrder>
+			</Properties>
+			<Actions>
+                <UpdateDatabase>
+					<Item>silla/data/unlocks-silla-antiquity.xml</Item>
+                </UpdateDatabase>
+                <UpdateText>
+					<Item>silla/text/en_us/UnlockSillaText.xml</Item>
+                </UpdateText>
+            </Actions>
 		</ActionGroup>
 		<!-- goryeo -->
         <ActionGroup id="base-game-main-goryeo" scope="game" criteria="always">
