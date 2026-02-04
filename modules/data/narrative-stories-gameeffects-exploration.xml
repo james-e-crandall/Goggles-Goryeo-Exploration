@@ -10,7 +10,7 @@
     <RequirementSet id="REQSET_GORYEO_JEC_COMPLETED_PROGRESSION_TREEA_NARRATIVE">
         <Requirement xref="REQ_STORY_CIVILIZATION_GORYEO"/>
         <Requirement type="REQUIREMENT_PLAYER_HAS_COMPLETED_PROGRESSION_TREE_NODE">
-            <Argument name="ProgressionTreeNodeType">NODE_CIVIC_EX_GORYEO_BYEOKRANDO
+            <Argument name="ProgressionTreeNodeType">NODE_CIVIC_EX_GORYEO_BYEOKRANDO</Argument>
             <Argument name="MinDepth">1</Argument>
         </Requirement>
     </RequirementSet>
